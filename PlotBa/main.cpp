@@ -19,15 +19,18 @@ int main(int argc, char *argv[])
     //QTextEdit te;
     //te.show();
 
-    QTextEdit *textEdit = new QTextEdit;
+    QTextEdit *textEditScale = new QTextEdit;
+    QTextEdit *textDisplayScale = new QTextEdit;
     //textEdit->setText(textEdit->currentFont().rawName());
     //tryin to make a button that sets a value to begin with:  QPushButton *scaleButton = new QPushButton()
+    // look at this example, I bet it's very inclusive:  http://doc.qt.io/qt-5/qtwidgets-widgets-calculator-example.html
     QPushButton *quitButton = new QPushButton("&Quit");
 
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
     QVBoxLayout *layout = new QVBoxLayout;
-    layout->addWidget(textEdit);
+    layout->addWidget(textEditScale);
+    layout->addWidget(textDisplayScale);
     layout->addWidget(quitButton);
 
     QWidget window;

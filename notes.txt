@@ -1,0 +1,3 @@
+plz combine w/ one which i think exists on laptop
+
+- the *parent thing gives you the option (is it always an option? is it only an option if it says *parent=0, which allegedly sets it to NULL or whatever?) to declare a parent of this object, which means when something like hide() or delete() happens to the parent, it will happen to this too (the child).  ***I think this is not to be confused with parenthood and childhood of classes (vs. objects, which are instances of classes), where parent just means the nearest inheritance

@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    scalebutton.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    scalebutton.h
 
 FORMS    += mainwindow.ui

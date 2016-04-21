@@ -20,6 +20,8 @@ int main(int argc, char *argv[])
     //te.show();
 
     QTextEdit *textEdit = new QTextEdit;
+    //textEdit->setText(textEdit->currentFont().rawName());
+    //tryin to make a button that sets a value to begin with:  QPushButton *scaleButton = new QPushButton()
     QPushButton *quitButton = new QPushButton("&Quit");
 
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));

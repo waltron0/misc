@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "scalebutton.h"
+//#include "scalebutton.h"
 #include <QApplication>
 #include <QFile>
 #include <iostream>
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     ss << intag;
     textEditScale->setText(ss.str());*/
     //then you can also get the integer out of the stringstream by doing ss >> [integer]
-    textEditScale->setText("asdjaspodfsdiasd");
+    //textEditScale->setText("asdjaspodfsdiasd");
 
     //HERERERERE:
     //the following makes it crash:
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     //this is probably a better thing to look at:   https://wiki.qt.io/How_to_Use_QPushButton
 
     QTextEdit *textDisplayScale = new QTextEdit;
-    textDisplayScale->setText(textEditScale->toPlainText());
+    //textDisplayScale->setText(textEditScale->toPlainText());
     //textEdit->setText(textEdit->currentFont().rawName());
     //tryin to make a button that sets a value to begin with:  QPushButton *scaleButton = new QPushButton()
     // look at this example, I bet it's very inclusive:  http://doc.qt.io/qt-5/qtwidgets-widgets-calculator-example.html
@@ -50,17 +50,22 @@ int main(int argc, char *argv[])
 
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
+    QPushButton *scaleButton = new QPushButton("Scale");//, this);
+    QObject::connect(scaleButton, SIGNAL (released()), textEditScale, SLOT (clear())); //for some reason i can't call setText as the slot
+
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addWidget(textEditScale);
+    //layout->addWidget(MainWindow::scaleButton);
+    layout->addWidget(scaleButton);
     layout->addWidget(textDisplayScale);
     layout->addWidget(quitButton);
 
     QWidget window;
     window.setLayout(layout);
 
-    window.show();
+    window.show();//Maximized
 
-    QFile file("C:/Walton/data/20160311/exp298_1.SPE");
+    /*QFile file("C:/Walton/data/20160311/exp298_1.SPE");
     file.open(QIODevice::ReadOnly);
     QDataStream in(&file);
     int n=0;
@@ -69,7 +74,7 @@ int main(int argc, char *argv[])
         in >> a;
         //cout << n << " " << a << endl;
         n++;
-    }
+    }*/
     //system("PAUSE");
 
     return a.exec();

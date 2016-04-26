@@ -51,7 +51,10 @@ int main(int argc, char *argv[])
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
     QPushButton *scaleButton = new QPushButton("Scale");//, this);
-    QObject::connect(scaleButton, SIGNAL (released()), textEditScale, SLOT (clear())); //for some reason i can't call setText as the slot
+    //QObject::connect(scaleButton, SIGNAL(released()), textEditScale, SLOT(clear())); //for some reason i can't call setText as the slot
+    connect(scaleButton, &QPushButton::clicked, [=]{ textEditScale->setText(QString("poop")); });
+    //connect(pushButton1, &QPushButton::clicked, [=]{ lineEdit->setText(QString("1"); });
+    //from    https://forum.qt.io/topic/57845/solved-settext-not-working/3
 
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addWidget(textEditScale);

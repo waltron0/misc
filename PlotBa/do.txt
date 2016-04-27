@@ -1,0 +1,5 @@
+1) implement your SummerSloth stuff in Qt, to remember what you learned about stuff
+2) make a NUMBER box that has a signal that it changed (is your stuff failing because you need to declare signals in the class?)
+3) make a plotter in a window and a scaler with (2)
+
+- you prolly want all your things (classes?) to have their parent as the window so they die when it does

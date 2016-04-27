@@ -1,7 +1,14 @@
 #include "thing.h"
 
-void Thing::copyIt(QTe)
+Thing::Thing()
 {
-    this->setText(textthing);
+    thing->thingValue=0;
+}
+
+void Thing::copyEditBox()
+{
+    //this->setText(textthing);
+    textDisplayScale->setText(textEditScale->toPlainText());
+
     return;
 }

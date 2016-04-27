@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "thing.h"
 //#include "scalebutton.h"
 #include <QApplication>
 #include <QFile>
@@ -35,7 +36,6 @@ int main(int argc, char *argv[])
     //then you can also get the integer out of the stringstream by doing ss >> [integer]
     //textEditScale->setText("asdjaspodfsdiasd");
 
-    //HERERERERE:
     //the following makes it crash:
     //ScaleButton *s=new ScaleButton(QWidget *parent);
     //and also yout function def in ScaleButton probably makes no sense.
@@ -52,9 +52,24 @@ int main(int argc, char *argv[])
 
     QPushButton *scaleButton = new QPushButton("Scale");//, this);
     //QObject::connect(scaleButton, SIGNAL(released()), textEditScale, SLOT(clear())); //for some reason i can't call setText as the slot
-    connect(scaleButton, SIGNAL(clicked()), [=]{ textEditScale->setText(QString("set the text")); });
-    //connect(pushButton1, &QPushButton::clicked, [=]{ lineEdit->setText(QString("1"); });
+
+    //Thing *t=new Thing();
+    Thing *t;
+    //t->thingValue = 1;
+
+    //nope:
+    QObject::connect(scaleButton, SIGNAL(clicked()), *t, SLOT(copyEditBox()));
+
+    //this doesn't work but has a probably useful error message:
+    //connect(scaleButton, SIGNAL(clicked()), [=]{ textDisplayScale->setText(QString("set the text")); });
+    //orig:  connect(pushButton1, &QPushButton::clicked, [=]{ lineEdit->setText(QString("1"); });
     //from    https://forum.qt.io/topic/57845/solved-settext-not-working/3
+
+    //doesn't do anything:
+    //QObject::connect(textEditScale, SIGNAL(textChanged()), textDisplayScale, SLOT(selectAll()));
+
+    //HERERERERERERE:
+    //idea:  make scale run a different function, which has no parameters so it works as a clicked slot, which scales
 
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addWidget(textEditScale);

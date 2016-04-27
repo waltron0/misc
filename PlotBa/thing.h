@@ -7,12 +7,16 @@ namespace Ui {
 class MainWindow;
 }
 
-class Thing : public QTextEdit
+class Thing // : public QTextEdit
 {
     Q_OBJECT
 
+public:
+    Thing();
+    int thingValue;
+
 private slots:
-    void copyIt();
+    void copyEditBox();
 };
 
 #endif // THING_H

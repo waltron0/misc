@@ -1,4 +1,6 @@
 1) implement your SummerSloth stuff in Qt, to remember what you learned about stuff
+1.25) separate the classes and stuff into other files?
+1.5) make a button that does the sim
 2) make a NUMBER box that has a signal that it changed (is your stuff failing because you need to declare signals in the class?)
 3) make a plotter in a window and a scaler with (2)
 

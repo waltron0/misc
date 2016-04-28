@@ -15,10 +15,10 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    QPushButton *simButton;
 
 private:
     Ui::MainWindow *ui;
-    QPushButton *simButton;
     void simulate(); //HERERERERERE .......... not tested
 };
 

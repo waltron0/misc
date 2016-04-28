@@ -104,8 +104,8 @@ void simulateData(Year& year, bool summerSloth) {
 void outputAnalysis(Year& year) {
 
     ofstream outt;
-    if(year.summerSlothAllowed) outt.open("C:/Walton/git_misc/misc/SummerSloth/data.txt");
-    else outt.open("C:/Walton/git_misc/misc/SummerSloth/data_noSummerSloth.txt");
+    if(year.summerSlothAllowed) outt.open("C:/git_misc/misc/SummerSloth/data.txt"); // Walton/
+    else outt.open("C:/git_misc/misc/SummerSloth/data_noSummerSloth.txt"); // Walton/
 
     const float binWidth = 10.;
     const int nbins = int(ceil(250 / binWidth));
@@ -191,9 +191,13 @@ int main(int argc, char *argv[])
     QPushButton *quitButton = new QPushButton("&Quit");
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
+    w.simButton = new QPushButton(this);
+    connect(simButton,SIGNAL(clicked()),this,SLOT(simulate()));
+
     QVBoxLayout *layout = new QVBoxLayout;
     //layout->addWidget(textBox);
     layout->addWidget(quitButton);
+    layout->addWidget(simButton);
 
     QWidget window;
     window.setLayout(layout);

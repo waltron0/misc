@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 #include <QApplication>
 
+#include <QObject>
+
 #include <QFile>
 #include <QTextEdit>
 #include <QtGui>
@@ -104,8 +106,8 @@ void simulateData(Year& year, bool summerSloth) {
 void outputAnalysis(Year& year) {
 
     ofstream outt;
-    if(year.summerSlothAllowed) outt.open("C:/git_misc/misc/SummerSloth/data.txt"); // Walton/
-    else outt.open("C:/git_misc/misc/SummerSloth/data_noSummerSloth.txt"); // Walton/
+    if(year.summerSlothAllowed) outt.open("C:/git_misc/git_misc/SummerSloth/data.txt"); // Walton/
+    else outt.open("C:/git_misc/git_misc/SummerSloth/data_noSummerSloth.txt"); // Walton/
 
     const float binWidth = 10.;
     const int nbins = int(ceil(250 / binWidth));
@@ -160,7 +162,15 @@ void outputAnalysis(Year& year) {
     return;
 }
 
-void sim2014and2015() {
+class kludgeClass : public QObject {
+
+    Q_OBJECT
+
+public slots:
+    void sim2014and2015();
+};
+
+void kludgeClass::sim2014and2015() {
 
     //simulate 2014 with summer sloth
     Year year2014;
@@ -191,13 +201,17 @@ int main(int argc, char *argv[])
     QPushButton *quitButton = new QPushButton("&Quit");
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
-    w.simButton = new QPushButton(this);
-    connect(simButton,SIGNAL(clicked()),this,SLOT(simulate()));
+    //w.simButton = new QPushButton(this);
+    //kludgeClass *k=new kludgeClass();
+    kludgeClass k;
+    QPushButton *simButton = new QPushButton("&suh");
+    QObject::connect(&simButton,SIGNAL(clicked()),&k,SLOT(sim2014and2015())); // there are still things i don't understand.  apparently takes 5 arguments with const char crap ???
+    //k.sim2014and2015();
 
     QVBoxLayout *layout = new QVBoxLayout;
     //layout->addWidget(textBox);
-    layout->addWidget(quitButton);
     layout->addWidget(simButton);
+    layout->addWidget(quitButton);
 
     QWidget window;
     window.setLayout(layout);

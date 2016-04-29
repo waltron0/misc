@@ -19,7 +19,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    void simulate(); //HERERERERERE .......... not tested
+    //void sim2014and2015();  //need to declare things in their own files and include and crap
 };
 
 #endif // MAINWINDOW_H

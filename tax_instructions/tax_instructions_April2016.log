@@ -1,0 +1,540 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.6.6)  29 APR 2016 09:01
+entering extended mode
+**tax_instructions_April2016.tex
+(C:\Walton\git_misc\misc\tax_instructions\tax_instructions_April2016.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count89
+Package caption Info: float package is loaded.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count90
+\c@subtable=\count91
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen111
+\WF@size=\dimen112
+\c@WF@wrappedlines=\count92
+\WF@box=\box28
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
+No file tax_instructions_April2016.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count93
+\scratchdimen=\dimen113
+\scratchbox=\box29
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen114
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks19
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 21.
+
+
+LaTeX Warning: File `exoweek_sitechange_591_2.png' not found on input line 31.
+
+
+! Package pdftex.def Error: File `exoweek_sitechange_591_2.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...7\textwidth]{exoweek_sitechange_591_2.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `exoweek_620antibleach.png' not found on input line 32.
+
+
+! Package pdftex.def Error: File `exoweek_620antibleach.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...=0.7\textwidth]{exoweek_620antibleach.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 lengths) in be-tween
+ []
+
+
+Overfull \hbox (5.47137pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 ex-ci-ta-tion spec-tra (and
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 the ex-ci-ta-tion spec-
+ []
+
+
+Overfull \hbox (4.55475pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 See 20141107.pptx and
+ []
+
+
+Overfull \hbox (7.69357pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 other files in C:/Walton 
+ []
+
+
+Overfull \hbox (9.97145pt too wide) in paragraph at lines 35--37
+\OT1/cmr/m/n/10 /analysis/20141107/ for
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 40--42
+\OT1/cmr/m/n/10 One re-ally in-ter-est-
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 40--42
+\OT1/cmr/m/n/10 ing thing was an
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 40--42
+\OT1/cmr/m/n/10 nm peak, be-tween
+ []
+
+
+Underfull \hbox (badness 7047) in paragraph at lines 45--47
+\OT1/cmr/m/n/10 be quan-ti-fied with
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 45--47
+\OT1/cmr/m/n/10 ci-ta-tion spec-tra re-
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 45--47
+\OT1/cmr/m/n/10 ing, which may in-
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+
+LaTeX Warning: File `thermal_history_excitspec_examp_excitSpec_all_v2_scaledToT
+rough_lin.png' not found on input line 55.
+
+
+! Package pdftex.def Error: File `thermal_history_excitspec_examp_excitSpec_all
+_v2_scaledToTrough_lin.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...p_excitSpec_all_v2_scaledToTrough_lin.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (10.29544pt too wide) in paragraph at lines 59--60
+[][]\OT1/cmr/m/n/10 e.g., this plot. Might
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 be more de-tails in
+ []
+
+
+Overfull \hbox (42.44376pt too wide) in paragraph at lines 59--60
+\OT1/cmr/m/n/10 C:/Walton/analysis/20140618/ 
+ []
+
+
+Overfull \hbox (4.97139pt too wide) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 posit/observation tem-
+ []
+
+
+Overfull \hbox (3.51369pt too wide) in paragraph at lines 72--74
+\OT1/cmr/bx/n/10 Re-pump at-tempts: 
+ []
+
+
+Overfull \hbox (10.44354pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/10 We tried re-pumping
+ []
+
+
+LaTeX Warning: File `bleach_re-pump_a.png' not found on input line 79.
+
+
+! Package pdftex.def Error: File `bleach_re-pump_a.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...width=.49\textwidth]{bleach_re-pump_a.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `bleach_re-pump_b.png' not found on input line 80.
+
+
+! Package pdftex.def Error: File `bleach_re-pump_b.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...width=.49\textwidth]{bleach_re-pump_b.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 81.
+
+LaTeX Warning: Reference `chapter:theory' on page 3 undefined on input line 91.
+
+
+[3]
+
+LaTeX Warning: Reference `fig:bleach_repump' on page 4 undefined on input line 
+93.
+
+
+LaTeX Warning: Reference `fig:bleach_repump' on page 4 undefined on input line 
+93.
+
+[4]
+
+LaTeX Warning: File `Ar_Lexel3500_powerDrop.png' not found on input line 112.
+
+
+! Package pdftex.def Error: File `Ar_Lexel3500_powerDrop.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 ....7\textwidth]{Ar_Lexel3500_powerDrop.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 114--116
+\OT1/cmr/m/n/10 just the tube life-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 114--116
+\OT1/cmr/m/n/10 plot is from what's
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 114--116
+\OT1/cmr/m/n/10 note-book, and you
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 114--116
+\OT1/cmr/m/n/10 could con-tinue it if
+ []
+
+
+Overfull \hbox (6.19978pt too wide) in paragraph at lines 122--124
+\OT1/cmr/bx/n/10 Non-linearity (in Ba
+ []
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 
+125.
+
+
+LaTeX Warning: File `20150916_cts_vs_ions_weird_trend_withOtherInset.png' not f
+ound on input line 127.
+
+
+! Package pdftex.def Error: File `20150916_cts_vs_ions_weird_trend_withOtherIns
+et.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...s_vs_ions_weird_trend_withOtherInset.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 13
+1.
+
+
+Overfull \hbox (14.61023pt too wide) in paragraph at lines 131--132
+[]\OT1/cmr/m/n/10 There typ-i-cally aren't
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 enough statis-tics to
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 say, but 2015-09-16
+ []
+
+[5]
+Overfull \hbox (7.91583pt too wide) in paragraph at lines 139--140
+\OT1/cmr/m/n/10 what you al-ready know,
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 141--142
+[]\OT1/cmr/m/n/10 Recall that the
+ []
+
+
+Overfull \hbox (13.22142pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 un-for-tu-nate equilibrium-
+ []
+
+
+Overfull \hbox (4.19356pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 with an av-er-aged Fara-
+ []
+
+
+Overfull \hbox (8.27689pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 the scope (which should
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 con-tin-u-ous puls-ing),
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 141--142
+\OT1/cmr/m/n/10 but it's not ideal.
+ []
+
+
+LaTeX Warning: File `defocusedImaging_20150421_atoms_run107_lego.png' not found
+ on input line 160.
+
+
+! Package pdftex.def Error: File `defocusedImaging_20150421_atoms_run107_lego.p
+ng' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...edImaging_20150421_atoms_run107_lego.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 162--164
+\OT1/cmr/m/n/10 to frost-ing his-tory,
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 162--164
+\OT1/cmr/m/n/10 caused by an ac-ci-
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 162--164
+\OT1/cmr/m/n/10 di-ca-tor of course is
+ []
+
+[6]
+Underfull \hbox (badness 5847) in paragraph at lines 167--169
+\OT1/cmr/m/n/10 ing vs. scanned
+ []
+
+[7] [8]
+(C:\Walton\git_misc\misc\tax_instructions\tax_instructions_April2016.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2780 strings out of 494045
+ 41088 string characters out of 3148385
+ 101914 words of memory out of 3000000
+ 6079 multiletter control sequences out of 15000+200000
+ 8205 words of font info for 29 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 36i,8n,38p,1514b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on tax_instructions_April2016.pdf (8 pages, 152494 bytes).
+PDF statistics:
+ 69 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

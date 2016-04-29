@@ -1,0 +1,193 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{wrapfig}
+
+%\setlength{\voffset}{-1.0in}
+\topmargin=-50pt
+\textheight = 610pt
+
+%\vspace{5 mm}
+\title{Legacy} %\title{2013-06-10 \\ soething}
+\author{}
+\date{}
+\begin{document}
+%\vspace{-10cm}
+\maketitle
+
+\setlength{\intextsep}{0pt}%
+
+\noindent
+\textbf{Search for laser-induced site change:}
+
+This is a study we did which didn't come to a conclusion, but should be remembered.  We looked for laser-induced site change, since site change could be at
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{exoweek_sitechange_591_2.png}
+    \includegraphics[width=0.7\textwidth]{exoweek_620antibleach.png}
+  \end{center}
+%\label{fig:sitechange1}
+\end{wrapfigure}
+least a part of bleaching, by doing bleaching (at single wavelengths) in between excitation spectra (and looking for changes in the excitation spectra due to bleaching), producing plots like the plot to the right.  See 20141107.pptx and other files in C:/Walton \newline /analysis/20141107/ for more details.
+
+\vspace{3mm}
+
+\noindent
+One really interesting thing was an apparent rapid anti-bleaching in the 619-nm peak, between the first and second bleaching events but not beyond that (see right plot).  This was also repeated on the other deposits I believe.
+
+\vspace{3mm}
+
+\noindent
+Some general conclusions:  (1) there was a small amount of increase in some areas of excitation spectra in a few cases, but increases can't actually be quantified with this data, (2) mostly is was decreases from bleaching, but there are some interesting shape changes in excitation spectra resulting from bleaching, which may indicate multiple sites with the same (similar) emission, and (3) the apparent rapid 619-nm anti-bleaching mentioned in previous paragraph.  \emph{It would have been interesting to try another excitation spectrum after waiting 10s of minutes (after a post-bleach).}
+
+\newpage
+
+\noindent
+\textbf{Also, thermal history effects on excitation spectra:}
+
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{thermal_history_excitspec_examp_excitSpec_all_v2_scaledToTrough_lin.png}
+  \end{center}
+\end{wrapfigure}
+
+e.g., this plot.  Might be more details in C:/Walton/analysis/20140618/
+
+\vspace{3mm}
+
+\noindent
+Legend specifies deposit/observation temperature.
+
+{\color{white}blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah}
+%after helped
+
+%\vspace{5mm}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\noindent
+\textbf{Re-pump attempts:}
+
+We tried re-pumping with the two cheap IR lasers, the red diode laser, the blue dye, and the Kr ion laser 406~nm line.  No re-pumping was ever observed, only increased bleaching with the blue and violet, though we don't know if this was actually due to heating.  The following figures and italicized text was written for my thesis but omitted.
+
+\begin{figure} [H]
+        \centering
+                \includegraphics[width=.49\textwidth]{bleach_re-pump_a.png}
+                \includegraphics[width=.49\textwidth]{bleach_re-pump_b.png}
+                \caption{Bleaching data with and without additional re-pump lasers at (a) 1064~nm ($\sim$18~mW/mm\textsuperscript{2}), 1550~nm ($\sim$9~mW/mm\textsuperscript{2}), 657~nm ($\sim$9~mW/mm\textsuperscript{2}) and 472.64~nm ($\sim$14~mW/mm\textsuperscript{2}), and (b) 406~nm.  All curves have 1.4 - 1.5~mW of 555-nm excitation, semi-focused to around 600-$\mu$m beam radius.  Deposits are (a) 6~s and (b) 3~s continuous Ba\textsuperscript{+} at 11~K.}
+\end{figure}
+
+%\begin{wrapfigure}{r}{0.7\textwidth}
+%  \begin{center}
+%    \includegraphics[width=0.7\textwidth]{bleach_re-pump_a.png}
+%    \includegraphics[width=0.7\textwidth]{bleach_re-pump_b.png}
+%  \end{center}
+%\end{wrapfigure}
+
+\emph{Re-pumping of optically pumped Ba could require up to three additional lasers, one for each of the populated metastable D states discussed in Chapter \ref{chapter:theory}.  The optimal excitation wavelength for each transition would need to be discovered using tunable lasers in the infrared.  However, broadening of the absorption and/or alterations in transition rates for Ba in the Xe matrix could lower the number of lasers needed.  Re-pumping was attempted with low-cost and on-hand lasers for the direct infrared transitions as well as the higher-level transitions shown in Fig. [Ba energy level figure in thesis, Ch.2].  A 1550-nm diode laser and a 1064-nm Nd:YAG laser were used to attempt direct re-pumping from the \textsuperscript{1}D and \textsuperscript{3}D states, respectively.  A 657-nm diode laser was used to attempt excitation from the \textsuperscript{3}D states into the higher-level $5d6p$ \textsuperscript{3}D$_{1}$\textsuperscript{o} state, similar to the red laser utilized in the Ba MOT in} [Ba MOT paper: S. De, U. Dammalapati, K. Jungmann, L. Willmann, \emph{Phys. Rev. A} \textbf{79}, 041402(R) (2009)] \emph{for the $6s5d$ \textsuperscript{3}D$_{1}$ state.  The blue C480 dye laser and 406-nm Kr ion laser were used to attempt excitation from the \textsuperscript{1}D state into the higher-level states $6s7p$ \textsuperscript{1}P$_{1}$\textsuperscript{o} and $6s8p$ \textsuperscript{1}P$_{1}$\textsuperscript{o}, respectively.}
+
+\emph{591-nm fluorescence counts vs. time for several Ba\textsuperscript{+} deposits made and observed at 11~K are shown in} [the plot] \emph{for several laser combinations, all of which were combined by dichroic filters into the same path.  Each curve is a separate deposit, all of which are scaled to begin at the same point for comparison.  In Fig. \ref{fig:bleach_repump}a, green-only (555~nm) excitation (i.e., no re-pump lasers) is shown along with green + IR (1064~nm and 1550~nm), green + IR + red (657~nm), green + IR + blue (C480 dye at 472.64~nm), and green + IR + red + blue.  Somewhat increased bleaching was observed by inclusion of these re-pump lasers, especially with the blue laser.  In Fig. \ref{fig:bleach_repump}b, green-only is shown again along with green + violet (Kr ion laser at 406~nm) at two different powers.  Increased bleaching was observed with the violet laser, with more bleaching at the higher violet laser power.  Thus, re-pumping schemes used to date have been unsuccessful.}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+%\vspace{5mm}
+\newpage
+
+\noindent
+\textbf{Ar ion laser's heat exchanger filter light:}
+
+The filter light is always on now, and it makes that periodic beep sound, but this is supposedly OK because a guy at Lexel (Cambridge Lasers actually -- they own Lexel now) thought that running through a spent filter may be better for this laser, since we don't actually want de-ionized water.  This was related to the metal parts in junctures of the Ar tube (\textbf{Lexel type only} -- this isn't true for Coherent), which you want to keep from corroding.  You may want a second opinion on that... Also, you may want to just inspect the filter.
+
+\vspace{5mm}
+
+\noindent
+\textbf{Ar ion laser (Lexel 3500 from Kristen Buchanan) power decline:}
+
+It is a pretty steady decline.  Since cleaning (see plot) didn't help, and re-alignment (I forget when I did this, maybe it's in the laser notebook) only helped
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{Ar_Lexel3500_powerDrop.png}
+  \end{center}
+\end{wrapfigure}
+slightly, I think it's just the tube lifetime (could call Cambridge Lasers to do the diagnostics).  The plot is from what's written in the laser notebook, and you could continue it if you want.
+
+{\color{white}blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah}
+%after helped
+
+\vspace{5mm}
+
+\noindent
+\textbf{Non-linearity (in Ba signal vs. ions deposited)?}
+
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{20150916_cts_vs_ions_weird_trend_withOtherInset.png}
+  \end{center}
+\end{wrapfigure}
+
+There typically aren't enough statistics to say, but 2015-09-16 (see plot) really looked like it had a funny shape, and it almost seems like this happens every time we run.  A high statistics run would be great... maybe shifts could be taken if there's more than one person who can run.  Lots of higher-number deposits accompanying single-atom/small- numbers deposits are valuable too, which may require a better pulser (see next).
+
+%\vspace{5mm}
+\newpage
+
+\noindent
+\textbf{A Better Pulser:}
+
+This begins with what you already know, but toward the end is something to consider.
+
+Recall that the pulser circuit has the unfortunate equilibrium-reaching time of 50-100 pulses (or something), making those pulses different from those following.  This can be corrected for with an averaged Faraday cup 3 signal in the scope (which should be done prior to a deposit rather than just continuous pulsing), but it's not ideal.  This is related to the time between pulses -- if that time is longer, the effect can go away (but the pulsing plate voltages may not overlap...), but that will increase the time required to do pulsing, and you run into the issue of keeping cup 3 open longer than you want.
+
+A new pulser should solve all of this:  (1) the first pulse would look like all the others, (2) you could (ideally) do a higher pulsing frequency, \textbf{and thus do a wider range of deposit sizes all within a 1-s cup-open time} -- this is very appealing, and (3) you could do odd numbers of pulses, which isn't extremely important (maybe this could be accomplished now too).
+
+\vspace{5mm}
+
+\noindent
+\textbf{On the McCaffrey paper} (J. Chem. Phys. \textbf{144}, 044308 (2016))\textbf{:}
+
+I don't think they said anything about the 619-nm line, but they do attribute the 670-nm line (called something slightly different) to a Ba molecule.  It would be interesting to image varying numbers (or spectra would work) using this line, to see if it is non-linear.
+
+\vspace{5mm}
+
+\noindent
+\textbf{Always think about possible false positives:}
+
+This image was one from 2015-04-21, where I was trying to image single atoms in a de-focused laser region.  It looked like atom peaks, but it turned
+\begin{wrapfigure}{r}{0.7\textwidth}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{defocusedImaging_20150421_atoms_run107_lego.png}
+  \end{center}
+\end{wrapfigure}
+out these peaks were scattering facets due to frosting history, caused by an accidentally large Xe deposit (and all Xe deposits thereafter were frosty).  They even blinked in and out for some reason.  The indicator of course is that they show up in Xe-only runs too.
+
+\vspace{3mm}
+
+\noindent
+\textbf{\color{red}Note:}  the BG will be higher when doing de-focused imaging vs. scanned imaging, due to imperfect imaging resolution and the fact that signal from an atom will be diffraction limited similarly to the laser focus.  (I don't remember if perfect (diffraction-limited) imaging would solve that, but you can think about it if you want.)  This is partly why we went with scanning.
+
+\newpage
+
+\noindent
+\textbf{Using the Ba getter wire:}
+
+First, you should probably \emph{\textbf{turn off and VALVE off the RGA before using getter}} because it might have cause the degradation of the RGA ionizer.
+
+Details on running it are probably on 2015-06-24 or around there.
+
+\vspace{5mm}
+
+\noindent
+\textbf{Misc.:}
+
+\vspace{2mm}
+
+\noindent
+(a) Sort of keep in mind the distinction between the actual w(x,y) in SXe ($\approx$same as in sapphire) and that which should be used for intersecting the ion density.
+
+\vspace{2mm}
+
+\noindent
+(b) If you ever try IR re-pumping (w/ tunable laser(s)), remember we already have some IR dichroics for laser combination (one should reflect green and pass all the IR we'd use, and the other should pass lower-wavelength IR, i.e. around 1100 nm, and reflect longer-wavelength, i.e. around 1500 nm).
+\end{document}

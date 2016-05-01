@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "simulator.cpp"
 #include <QApplication>
 
 #include <QObject>
@@ -162,16 +163,16 @@ void outputAnalysis(Year& year) {
     return;
 }
 
-class kludgeClass : public QObject {
+class kludgeClass : public QObject {//
 
-    Q_OBJECT
+    //Q_OBJECT
 
 public slots:
     void sim2014and2015();
 };
 
 void kludgeClass::sim2014and2015() {
-
+//void simit() { // this works, you can just call it from within main() with this
     //simulate 2014 with summer sloth
     Year year2014;
     simulateData(year2014, true);
@@ -202,16 +203,35 @@ int main(int argc, char *argv[])
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
     //w.simButton = new QPushButton(this);
-    //kludgeClass *k=new kludgeClass();
-    kludgeClass k;
-    QPushButton *simButton = new QPushButton("&suh");
-    QObject::connect(&simButton,SIGNAL(clicked()),&k,SLOT(sim2014and2015())); // there are still things i don't understand.  apparently takes 5 arguments with const char crap ???
+    kludgeClass *k=new kludgeClass();
+    //kludgeClass k;
     //k.sim2014and2015();
+    //simit();
+    QPushButton *simButton = new QPushButton("&Sim");
+    //QObject::connect(simButton,SIGNAL(clicked()),k,SLOT(sim2014and2015())); //almost works... can't connect cuz it says QObject has no such slot
+    //note:  having &simButton instead, as well as &k, didn't work and the error message was weird -- apprently this,
+    //       as well as the layout insertions (below) take pointers
+
+    QTextEdit textEditScale;// = new QTextEdit;
+    //textEditScale->setText("yes, this works");
+    //QString text;
+    Simulator *s=new Simulator(); //THINK about why simit() will take a pointer as well as an object like QString
+    //s->simit(textEditScale); //ok, it makes text in the box by passing the whatever thing (call by reference)
+                    //HEREREREEE now I want to make the button do it, so i may need to inherit
+    //QObject::connect(simButton,SIGNAL(clicked()),s,SLOT(simit(text))); still doesnt work
+    //textEditScale->setText(text);
+
+    QPushButton *clearButton = new QPushButton("Clear");
+    QObject::connect(clearButton, SIGNAL(released()), &textEditScale, SLOT(clear())); //note: it says this when textEditScale is defined as the object and not as a pointer:        C:\git_misc\git_misc\SummerSloth\main.cpp:225: error: C2665: 'QObject::connect': none of the 3 overloads could convert all the argument types
 
     QVBoxLayout *layout = new QVBoxLayout;
     //layout->addWidget(textBox);
+    layout->addWidget(clearButton);
+    //layout->addWidget(&textEditScale); //this works but then has that horrible error when you close the window
     layout->addWidget(simButton);
     layout->addWidget(quitButton);
+
+    //s->simit(textEditScale);
 
     QWidget window;
     window.setLayout(layout);

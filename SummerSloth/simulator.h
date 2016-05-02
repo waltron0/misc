@@ -10,7 +10,7 @@ public:
     Simulator();
 public slots:
     //void simit(QString& textBoxText);
-    void simit(QTextEdit& textBox);
+    void simit();//QTextEdit& textBox);
 };
 
 #endif // SIMULATOR_H

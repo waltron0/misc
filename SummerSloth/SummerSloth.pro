@@ -14,9 +14,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    simulator.cpp
+    simulator.cpp \
+    year.cpp \
+    proj.cpp
 
 HEADERS  += mainwindow.h \
-    simulator.h
+    simulator.h \
+    year.h \
+    main.h \
+    proj.h
 
 FORMS    += mainwindow.ui

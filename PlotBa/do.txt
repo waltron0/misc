@@ -1,3 +1,5 @@
+SHOULD PROLLY JUST START SOMETHING NEW, YOU CAN MAKE SOME DUMB RANDOM NUMBER DATA MAKER WHICH PRODUCES WITH A BUTTON, THEN PLOTTER, CUZ TRANSLATING YOUR OTHER THING IS TOO WEIRD FOR NOW
+
 *1) implement your SummerSloth stuff in Qt, to remember what you learned about stuff
 w1.25) separate the classes and stuff into other files?
 1.5) make a button that does the sim

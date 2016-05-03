@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "thing.h"
+//#include "thing.h"
 //#include "scalebutton.h"
 #include <QApplication>
 #include <QFile>
@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    //MainWindow w;
     //w.show();
 
     //textbox
@@ -51,14 +51,14 @@ int main(int argc, char *argv[])
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
     QPushButton *scaleButton = new QPushButton("Scale");//, this);
-    //QObject::connect(scaleButton, SIGNAL(released()), textEditScale, SLOT(clear())); //for some reason i can't call setText as the slot
+    QObject::connect(scaleButton, SIGNAL(released()), textEditScale, SLOT(clear())); //for some reason i can't call setText as the slot
 
     //Thing *t=new Thing();
-    Thing *t;
+    //Thing *t;
     //t->thingValue = 1;
 
     //nope:
-    QObject::connect(scaleButton, SIGNAL(clicked()), *t, SLOT(copyEditBox()));
+    //QObject::connect(scaleButton, SIGNAL(clicked()), *t, SLOT(copyEditBox()));
 
     //this doesn't work but has a probably useful error message:
     //connect(scaleButton, SIGNAL(clicked()), [=]{ textDisplayScale->setText(QString("set the text")); });

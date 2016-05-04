@@ -10,15 +10,21 @@ int main(int argc, char **argv)
 {
     QApplication app (argc, argv);
 
- QPushButton button;
+ /*QPushButton button;
  button.setText("tdasdsa");
  button.setToolTip("a too ti");
  //QIcon icon("C:/archives/pics_jamiePhone_20151126/IMG_14896013675339.jpg");
  //button.setIcon(icon);
- button.show();
+ button.show();*/
+
+    //////////////////////////////////////
+    //comment this out and it should work:
+    //nothing, see other files
+    //////////////////////////////////////
+    //////////////////////////////////////
 
     Window2 winodw;
-    //winodw.show();
+    winodw.show();
 
    return app.exec();
 }

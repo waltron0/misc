@@ -1,3 +1,4 @@
+---------------------------------------------------------------------
 - I am getting this error:
 LNK2019: unresolved external symbol "public: __cdecl Window2::Window2(class QWidget *)" (??0Window2@@QEAA@PEAVQWidget@@@Z) referenced in function main   main.obj
 
@@ -5,6 +6,16 @@ when I try to make a class in another file, in both FromEmpty.pro and QtRandom.p
 see this website for possibilities:
 https://msdn.microsoft.com/en-us/library/799kze2z.aspx
 
+THIS DOES NOT SEEM TO HAPPEN ON THE OFFICE DELL, which could go along with it being due to my stupid laptop
+...does this mean that things will fail on other peoples' compys when you make software?
+do this:
+try running it with everything commented out which is labeled "comment this out and it should work" (in multiple files)
+---------------------------------------------------------------------
+
+
+
+
+old:
 plz combine w/ one which i think exists on laptop
 
 - the *parent thing gives you the option (is it always an option? is it only an option if it says *parent=0, which allegedly sets it to NULL or whatever?) to declare a parent of this object, which means when something like hide() or delete() happens to the parent, it will happen to this too (the child).  ***I think this is not to be confused with parenthood and childhood of classes (vs. objects, which are instances of classes), where parent just means the nearest inheritance

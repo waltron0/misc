@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://wiki.qt.io/Qt_for_Beginners -->
+<html lang="en" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./Qt for Beginners - Qt Wiki_files/analytics.js"></script><script async="" src="./Qt for Beginners - Qt Wiki_files/load.php"></script>
+
+<title>Qt for Beginners - Qt Wiki</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<meta name="generator" content="MediaWiki 1.23.13">
+<link rel="shortcut icon" href="https://wiki.qt.io/favicon.ico?t=2016041300">
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.qt.io/opensearch_desc.php" title="Qt Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.qt.io/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Qt Wiki Atom feed" href="https://wiki.qt.io/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="stylesheet" href="./Qt for Beginners - Qt Wiki_files/load(1).php">
+<style>
+.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none} caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+/* cache key: heroku_app_db:resourceloader:filter:minify-css:7:6c1d24e90626cec584f0869483f983e7 */
+.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px -1px 0 0} html > body .suggestions{margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
+/* cache key: heroku_app_db:resourceloader:filter:minify-css:7:9f9511aa4ef920d34591113e825e6a1e */
+.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;-webkit-box-shadow:0 2px 5px 0 #ccc;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(/resources/src/mediawiki.action/images/green-checkmark.png?2016-04-27T04:58:20Z)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}
+/* cache key: heroku_app_db:resourceloader:filter:minify-css:7:550fce99e2123a508614d6b58b9b7939 */</style><style>
+.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
+/* cache key: heroku_app_db:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style><meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="./Qt for Beginners - Qt Wiki_files/load(2).php">
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: heroku_app_db:resourceloader:filter:minify-css:7:3fcb734007e97e66832e25724e1ea0ed */</style>
+<script src="./Qt for Beginners - Qt Wiki_files/load(3).php"></script><script src="./Qt for Beginners - Qt Wiki_files/load(4).php"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Qt_for_Beginners","wgTitle":"Qt for Beginners","wgCurRevisionId":20033,"wgRevisionId":20033,"wgArticleId":1488,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["HowTo"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Qt_for_Beginners","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":true,"previewDialog":false,"publish":true}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"wikieditor-publish":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs500":false,"searchNs501":false,"searchNs700":false,"searchNs701":false,"searchNs3600":false,"searchNs3601":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: heroku_app_db:resourceloader:filter:minify-js:7:8e8c09c6ce9c4f1e44e2a18dea5b32ef */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script><script src="./Qt for Beginners - Qt Wiki_files/load(5).php"></script>
+<style type="text/css">/*<![CDATA[*/
+.source-cpp-qt {line-height: normal;}
+.source-cpp-qt li, .source-cpp-qt pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for cpp-qt
+ * CSS class: source-cpp-qt, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.cpp-qt.source-cpp-qt .de1, .cpp-qt.source-cpp-qt .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.cpp-qt.source-cpp-qt  {font-family:monospace;}
+.cpp-qt.source-cpp-qt .imp {font-weight: bold; color: red;}
+.cpp-qt.source-cpp-qt li, .cpp-qt.source-cpp-qt .li1 {font-weight: normal; vertical-align:top;}
+.cpp-qt.source-cpp-qt .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.cpp-qt.source-cpp-qt .li2 {font-weight: bold; vertical-align:top;}
+.cpp-qt.source-cpp-qt .kw1 {color: #000000; font-weight:bold;}
+.cpp-qt.source-cpp-qt .kw2 {color: #0057AE;}
+.cpp-qt.source-cpp-qt .kw3 {color: #2B74C7;}
+.cpp-qt.source-cpp-qt .kw4 {color: #0057AE;}
+.cpp-qt.source-cpp-qt .kw5 {color: #22aadd;}
+.cpp-qt.source-cpp-qt .co1 {color: #888888;}
+.cpp-qt.source-cpp-qt .co2 {color: #006E28;}
+.cpp-qt.source-cpp-qt .coMULTI {color: #888888; font-style: italic;}
+.cpp-qt.source-cpp-qt .es0 {color: #000099; font-weight: bold;}
+.cpp-qt.source-cpp-qt .es1 {color: #000099; font-weight: bold;}
+.cpp-qt.source-cpp-qt .es2 {color: #660099; font-weight: bold;}
+.cpp-qt.source-cpp-qt .es3 {color: #660099; font-weight: bold;}
+.cpp-qt.source-cpp-qt .es4 {color: #660099; font-weight: bold;}
+.cpp-qt.source-cpp-qt .es5 {color: #006699; font-weight: bold;}
+.cpp-qt.source-cpp-qt .br0 {color: #006E28;}
+.cpp-qt.source-cpp-qt .sy0 {color: #006E28;}
+.cpp-qt.source-cpp-qt .st0 {color: #BF0303;}
+.cpp-qt.source-cpp-qt .nu0 {color: #B08000;}
+.cpp-qt.source-cpp-qt .nu6 {color: #208080;}
+.cpp-qt.source-cpp-qt .nu8 {color: #208080;}
+.cpp-qt.source-cpp-qt .nu12 {color: #208080;}
+.cpp-qt.source-cpp-qt .nu16 {color:#800080;}
+.cpp-qt.source-cpp-qt .nu17 {color:#800080;}
+.cpp-qt.source-cpp-qt .nu18 {color:#800080;}
+.cpp-qt.source-cpp-qt .nu19 {color:#800080;}
+.cpp-qt.source-cpp-qt .me1 {color: #2B74C7;}
+.cpp-qt.source-cpp-qt .me2 {color: #2B74C7;}
+.cpp-qt.source-cpp-qt .me3 {color: #2B74C7;}
+.cpp-qt.source-cpp-qt .ln-xtra, .cpp-qt.source-cpp-qt li.ln-xtra, .cpp-qt.source-cpp-qt div.ln-xtra {background-color: #ffc;}
+.cpp-qt.source-cpp-qt span.xtra { display:block; }
+
+/*]]>*/
+</style><style type="text/css">/*<![CDATA[*/
+.source-make {line-height: normal;}
+.source-make li, .source-make pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for make
+ * CSS class: source-make, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.make.source-make .de1, .make.source-make .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.make.source-make  {font-family:monospace;}
+.make.source-make .imp {font-weight: bold; color: red;}
+.make.source-make li, .make.source-make .li1 {font-weight: normal; vertical-align:top;}
+.make.source-make .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.make.source-make .li2 {font-weight: bold; vertical-align:top;}
+.make.source-make .kw1 {color: #666622; font-weight: bold;}
+.make.source-make .kw2 {color: #990000;}
+.make.source-make .co1 {color: #339900; font-style: italic;}
+.make.source-make .co2 {color: #000099; font-weight: bold;}
+.make.source-make .es0 {color: #000099; font-weight: bold;}
+.make.source-make .br0 {color: #004400;}
+.make.source-make .sy0 {color: #004400;}
+.make.source-make .st0 {color: #CC2200;}
+.make.source-make .nu0 {color: #CC2200;}
+.make.source-make .re0 {color: #000088; font-weight: bold;}
+.make.source-make .re1 {color: #0000CC; font-weight: bold;}
+.make.source-make .re2 {color: #000088;}
+.make.source-make .ln-xtra, .make.source-make li.ln-xtra, .make.source-make div.ln-xtra {background-color: #ffc;}
+.make.source-make span.xtra { display:block; }
+
+/*]]>*/
+</style><!--[if lt IE 7]><style type="text/css">body{behavior:url("/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Qt_for_Beginners skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Qt for Beginners</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">From Qt Wiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="https://wiki.qt.io/Qt_for_Beginners#mw-navigation">navigation</a>, 					<a href="https://wiki.qt.io/Qt_for_Beginners#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div style="background:#eeeeee;padding:2px;">
+<p><strong class="selflink">En</strong>
+<span style="color:#ccc;">Ar</span>
+<span style="color:#ccc;">Bg</span>
+<span style="color:#ccc;">De</span>
+<span style="color:#ccc;">El</span>
+<span style="color:#ccc;">Es</span>
+<span style="color:#ccc;">Fa</span>
+<span style="color:#ccc;">Fi</span>
+<span style="color:#ccc;">Fr</span>
+<span style="color:#ccc;">Hi</span>
+<span style="color:#ccc;">Hu</span>
+<span style="color:#ccc;">It</span>
+<span style="color:#ccc;">Ja</span>
+<span style="color:#ccc;">Kn</span>
+<span style="color:#ccc;">Ko</span>
+<span style="color:#ccc;">Ms</span>
+<span style="color:#ccc;">Nl</span>
+<span style="color:#ccc;">Pl</span>
+<span style="color:#ccc;">Pt</span>
+<span style="color:#ccc;">Ru</span>
+<span style="color:#ccc;">Th</span>
+<span style="color:#ccc;">Tr</span>
+<span style="color:#ccc;">Uk</span>
+<span style="color:#ccc;">Zh</span>
+</p>
+</div>
+<p><b>Warning</b>&nbsp;: be sure to have some knowledge in C++ before starting!
+</p><p><b>Remark</b>&nbsp;: this tutorial series target mainly Qt4. Even if most of these tutorials are also valid for Qt5, the case of Qt5 is discussed in a separate part.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="https://wiki.qt.io/Qt_for_Beginners#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="https://wiki.qt.io/Qt_for_Beginners#C.2B.2B_reminder"><span class="tocnumber">1</span> <span class="toctext">C++ reminder</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="https://wiki.qt.io/Qt_for_Beginners#Introduction_to_Qt"><span class="tocnumber">2</span> <span class="toctext">Introduction to Qt</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="https://wiki.qt.io/Qt_for_Beginners#Installing_Qt_SDK"><span class="tocnumber">3</span> <span class="toctext">Installing Qt SDK</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="https://wiki.qt.io/Qt_for_Beginners#Qt_Creator_features"><span class="tocnumber">4</span> <span class="toctext">Qt Creator features</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="https://wiki.qt.io/Qt_for_Beginners#Our_first_window"><span class="tocnumber">5</span> <span class="toctext">Our first window</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="https://wiki.qt.io/Qt_for_Beginners#How_a_Qt_program_is_compiled"><span class="tocnumber">6</span> <span class="toctext">How a Qt program is compiled</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="https://wiki.qt.io/Qt_for_Beginners#A_pretty_button"><span class="tocnumber">7</span> <span class="toctext">A pretty button</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="https://wiki.qt.io/Qt_for_Beginners#Qt_class_hierarchy"><span class="tocnumber">8</span> <span class="toctext">Qt class hierarchy</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="https://wiki.qt.io/Qt_for_Beginners#Parenting_system"><span class="tocnumber">9</span> <span class="toctext">Parenting system</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="https://wiki.qt.io/Qt_for_Beginners#Subclassing_QWidget"><span class="tocnumber">10</span> <span class="toctext">Subclassing QWidget</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="https://wiki.qt.io/Qt_for_Beginners#Further_Reading"><span class="tocnumber">11</span> <span class="toctext">Further Reading</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="https://wiki.qt.io/Qt_for_Beginners#The_observer_pattern"><span class="tocnumber">12</span> <span class="toctext">The observer pattern</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="https://wiki.qt.io/Qt_for_Beginners#Signals_and_slots"><span class="tocnumber">13</span> <span class="toctext">Signals and slots</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="https://wiki.qt.io/Qt_for_Beginners#Transmitting_information"><span class="tocnumber">14</span> <span class="toctext">Transmitting information</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="https://wiki.qt.io/Qt_for_Beginners#Features_of_signals_and_slots"><span class="tocnumber">15</span> <span class="toctext">Features of signals and slots</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="https://wiki.qt.io/Qt_for_Beginners#Examples"><span class="tocnumber">16</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="https://wiki.qt.io/Qt_for_Beginners#Responding_to_an_event"><span class="tocnumber">16.1</span> <span class="toctext">Responding to an event</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="https://wiki.qt.io/Qt_for_Beginners#Transmitting_information_with_signals_and_slots"><span class="tocnumber">17</span> <span class="toctext">Transmitting information with signals and slots</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="https://wiki.qt.io/Qt_for_Beginners#Technical_aspect"><span class="tocnumber">18</span> <span class="toctext">Technical aspect</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="https://wiki.qt.io/Qt_for_Beginners#The_Meta_Object"><span class="tocnumber">19</span> <span class="toctext">The Meta Object</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="https://wiki.qt.io/Qt_for_Beginners#Important_macros"><span class="tocnumber">20</span> <span class="toctext">Important macros</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="https://wiki.qt.io/Qt_for_Beginners#Creating_custom_signals_and_slots"><span class="tocnumber">21</span> <span class="toctext">Creating custom signals and slots</span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="https://wiki.qt.io/Qt_for_Beginners#Creating_custom_slots"><span class="tocnumber">21.1</span> <span class="toctext">Creating custom slots</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="https://wiki.qt.io/Qt_for_Beginners#Creating_signals"><span class="tocnumber">21.2</span> <span class="toctext">Creating signals</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="https://wiki.qt.io/Qt_for_Beginners#Example"><span class="tocnumber">21.3</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-28"><a href="https://wiki.qt.io/Qt_for_Beginners#Troubleshooting"><span class="tocnumber">22</span> <span class="toctext">Troubleshooting</span></a></li>
+<li class="toclevel-1 tocsection-29"><a href="https://wiki.qt.io/Qt_for_Beginners#Widgets"><span class="tocnumber">23</span> <span class="toctext">Widgets</span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="https://wiki.qt.io/Qt_for_Beginners#Signals_and_slots_2"><span class="tocnumber">24</span> <span class="toctext">Signals and slots</span></a></li>
+<li class="toclevel-1 tocsection-31"><a href="https://wiki.qt.io/Qt_for_Beginners#Qt_for_beginners_.E2.80.94_Finding_information_in_the_documentation"><span class="tocnumber">25</span> <span class="toctext">Qt for beginners — Finding information in the documentation</span></a></li>
+<li class="toclevel-1 tocsection-32"><a href="https://wiki.qt.io/Qt_for_Beginners#Where_to_find_the_documentation"><span class="tocnumber">26</span> <span class="toctext">Where to find the documentation</span></a></li>
+<li class="toclevel-1 tocsection-33"><a href="https://wiki.qt.io/Qt_for_Beginners#Important_sections_of_the_documentation"><span class="tocnumber">27</span> <span class="toctext">Important sections of the documentation</span></a></li>
+<li class="toclevel-1 tocsection-34"><a href="https://wiki.qt.io/Qt_for_Beginners#Browse_the_documentation_of_a_class"><span class="tocnumber">28</span> <span class="toctext">Browse the documentation of a class</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="C.2B.2B_reminder">C++ reminder</span></h2>
+<p>The <b>signature</b> of a method or function is simply its prototype. It completely describes a method or function. It contains the returned type, the name of the method/function (including the class name) and the parameters, including types.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">Type MyObject<span class="sy0">::</span><span class="me2">myFunction</span><span class="br0">(</span>
+ Type1 param1<span class="sy0">,</span>
+ Type2 <span class="sy0">*</span>param2<span class="sy0">,</span>
+ <span class="kw4">const</span> Type3 <span class="sy0">&amp;</span>param3
+<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>New to Qt? Don't know how to start? Then this wiki page is for you! It is a step by step tutorial that presents all specificities and features of Qt.
+</p>
+<h2><span class="mw-headline" id="Introduction_to_Qt">Introduction to Qt</span></h2>
+<p>Qt (pronounce it as "cute", not "cu-tee") is a cross-platform framework, that is usually used as a graphical toolkit, although it is also very helpful in creating CLI applications. It runs on the three major desktop OSes, as well as on mobile OSes, such as Symbian, Nokia Belle, Meego Harmattan, MeeGo or BB10, and on embedded devices. Ports for Android (Necessitas) and iOS are also in development.
+</p><p>Qt has an impressive collection of modules, including
+</p>
+<ul>
+<li> <b>QtCore</b>, a base library that provides containers, thread management, event management, and much more
+</li>
+<li> <b>QtGui</b> and <b>QtWidgets</b>, a GUI toolkit for Desktop, that provides a lot of graphical components to design applications.
+</li>
+<li> <b>QtNetwork</b>, that provides an useful set of classes to deal with network communications
+</li>
+<li> <b>QtWebkit</b>, the webkit engine, that enable the use of web pages and web apps in a Qt application.
+</li>
+<li> <b>QtSQL</b>, a full featured SQL RDBM abstraction layer extensible with own drivers, support for ODBC, SQLITE, MySQL and PostgreSQL is available out of the box
+</li>
+<li> <b>QtXML</b>, support for simple XML parsing (SAX) and DOM
+</li>
+<li> <b>QtXmlPatterns</b>, support for XSLT, XPath, XQuery and Schema validation
+</li>
+</ul>
+<h2><span class="mw-headline" id="Installing_Qt_SDK">Installing Qt SDK</span></h2>
+<p>To get start to write Qt applications, you have to get Qt libraries, and, if you want, an IDE. They can be build from source, or better, be downloaded as an SDK from <a rel="nofollow" class="external text" href="http://www.qt.io/download/">the download page</a>.
+</p><p>This SDK includes a lot of features, like cross compilers for Symbian and the Nokia N9. You might choose not to install them by selecting "custom install". Be sure to keep these packages
+</p>
+<ul>
+<li> <b>QMake Documentation</b>
+</li>
+<li> <b>Qt Documentation</b>
+</li>
+<li> <b>Qt 4.8.1 (Destkop)</b>, assuming that Qt 4.8.1 is the latest version.
+</li>
+<li> <b>Qt Creator</b>
+</li>
+</ul>
+<p>These packages can also be useful
+</p>
+<ul>
+<li> Qt Examples
+</li>
+<li> Qt Linguist
+</li>
+</ul>
+<p>You can select other packages if you want to develop for Symbian / Maemo / Meego, or with older version of Qt.
+</p><p><b>NB</b>&nbsp;: On linux, it is better to use the packages that your distribution provides. Qt Creator should be available in nearly all distributions, and installing it should install all dependancies, like libraries, compilers, and developement headers.
+</p><p><i><b>Note:</b> See the official <a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/gettingstartedqt.html">Getting Started with Qt Widgets</a> page for an alternative tutorial.</i>
+</p><p>We are now ready to create our first window. And it will be as usual, a <i>hello world</i>.
+</p>
+<h2><span class="mw-headline" id="Qt_Creator_features">Qt Creator features</span></h2>
+<p>Before writing our first GUI app, let's discover Qt Creator.
+</p><p>Qt Creator is yet another IDE for C++, but it is very well suited for coding Qt applications. It provides a doc browser and the "designer", which makes creation of windows easier, all wrapped in a well-designed user interface. It's also one of the fastest IDE's available.
+</p>
+<h2><span class="mw-headline" id="Our_first_window">Our first window</span></h2>
+<p>Let's start by creating our first project. It will be an empty project, so we have to proceed with:
+File &gt; New file or project &gt; Other Projects &gt; Empty Qt Project
+</p><p><a href="https://wiki.qt.io/File:Beginners-01-NewProject.jpg" class="image"><img alt="Beginners-01-NewProject.jpg" src="./Qt for Beginners - Qt Wiki_files/600px-Beginners-01-NewProject.jpg" width="600" height="376" srcset="https://qt-wiki-uploads.s3.amazonaws.com/images/0/0f/Beginners-01-NewProject.jpg 1.5x, https://qt-wiki-uploads.s3.amazonaws.com/images/0/0f/Beginners-01-NewProject.jpg 2x"></a>
+</p><p>Follow the wizard, and after selecting the project folder and name, and select the version of Qt to use, you should land on this page
+</p><p><a href="https://wiki.qt.io/File:Beginners-02-HelloWorldPro.jpg" class="image"><img alt="Beginners-02-HelloWorldPro.jpg" src="./Qt for Beginners - Qt Wiki_files/600px-Beginners-02-HelloWorldPro.jpg" width="600" height="449" srcset="https://qt-wiki-uploads.s3.amazonaws.com/images/9/9c/Beginners-02-HelloWorldPro.jpg 1.5x, https://qt-wiki-uploads.s3.amazonaws.com/images/9/9c/Beginners-02-HelloWorldPro.jpg 2x"></a>
+</p><p>This is the project file (extension .pro). Qt uses a command line tool that parses these project files in order to generate "makefiles", files that are used by compilers to build an application. This tool is called <b>qmake</b>. But, we shouldn't bother too much about qmake, since Qt Creator will do the job for us.
+</p><p>In a project file, there is some minimal code that should always be written&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="make source-make"><pre class="de1">TEMPLATE <span class="sy0">=</span> app
+TARGET <span class="sy0">=</span> name_of_the_app
+&nbsp;
+QT <span class="sy0">=</span> core gui
+&nbsp;
+greaterThan<span class="br0">(</span>QT_MAJOR_VERSION<span class="sy0">,</span> <span class="nu0">4</span><span class="br0">)</span><span class="sy0">:</span> QT <span class="sy0">+=</span> widgets</pre></div></div>
+<ul>
+<li> <i>TEMPLATE</i> describes the type to build. It can be an application, a library, or simply subdirectories.
+</li>
+<li> <i>TARGET</i> is the name of the app or the library.
+</li>
+<li> <i>QT</i> is used to indicate what libraries (Qt modules) are being used in this project. Since our first app is a small GUI, we will need QtCore and QtGui.
+</li>
+</ul>
+<p>Let's now add the entry point of our application. Using File &gt; New file or project &gt; C++ &gt; C++ Source file should do the job.
+</p><p><a href="https://wiki.qt.io/File:Beginners-03-NewFile.jpg" class="image"><img alt="Beginners-03-NewFile.jpg" src="./Qt for Beginners - Qt Wiki_files/600px-Beginners-03-NewFile.jpg" width="600" height="376" srcset="https://qt-wiki-uploads.s3.amazonaws.com/images/3/3f/Beginners-03-NewFile.jpg 1.5x, https://qt-wiki-uploads.s3.amazonaws.com/images/3/3f/Beginners-03-NewFile.jpg 2x"></a>
+</p><p>Follow the wizard once again, naming the file "main", and you are done.
+You will notice that in the project file, a new line has been added automatically by Qt Creator&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="make source-make"><pre class="de1">TEMPLATE <span class="sy0">=</span> app
+TARGET <span class="sy0">=</span> name_of_the_app
+&nbsp;
+QT <span class="sy0">=</span> core gui
+&nbsp;
+SOURCES <span class="sy0">+=</span>  main<span class="sy0">.</span>cpp</pre></div></div>
+<p>Headers and sources files can be added manually with
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="make source-make"><pre class="de1">HEADERS <span class="sy0">+=</span> first_file<span class="sy0">.</span>h second_file<span class="sy0">.</span>h
+SOURCES <span class="sy0">+=</span> first_file<span class="sy0">.</span>cpp second_file<span class="sy0">.</span>cpp</pre></div></div>
+<p>or 
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="make source-make"><pre class="de1">HEADERS <span class="sy0">+=</span> first_file<span class="sy0">.</span>h  second_file<span class="sy0">.</span>h
+SOURCES <span class="sy0">+=</span> first_file<span class="sy0">.</span>cpp  second_file<span class="sy0">.</span>cpp</pre></div></div>
+<p>If you use Qt Creator's wizards, this is done automatically. 
+</p><p>The minimal source code of a Qt application is 
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p><b>QApplication</b> is a very important class. It takes care of input arguments, but also a lot of other things, and most notably, the <i>event loop</i>. The event loop is a loop that waits for used input in GUI applications.
+</p><p>When calling <tt>app.exec()</tt> the event loop is launched. 
+</p><p>Let's compile this application. By clicking on the green arrow on the bottom left, Qt Creator will compile and execute it. And what happened&nbsp;? The application seems to be launched and not responding. That is actually normal. The event loop is running and waiting for events, like mouse clicks on a GUI, but we did not provide any event to be processed, so it will run indefinitely.
+</p><p>Let's add something to be displayed.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw5">QPushButton</span> button <span class="br0">(</span><span class="st0">"Hello world&nbsp;!"</span><span class="br0">)</span><span class="sy0">;</span>
+ button.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>Compile it, and … here it is&nbsp;! Our first window&nbsp;!
+</p><p><a href="https://wiki.qt.io/File:Beginners-04-FirstWindow.jpg" class="image"><img alt="Beginners-04-FirstWindow.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginners-04-FirstWindow.jpg" width="600" height="430"></a>
+</p>
+<h2><span class="mw-headline" id="How_a_Qt_program_is_compiled">How a Qt program is compiled</span></h2>
+<p>Qt Creator does the job for us, but it might be interesting to know how Qt programs are compiled.
+</p><p>For small programs, it is easy to compile everything by hand, creating objects files, then linking them. But for bigger projects, the command line easily becomes hard to write. If you are familiar with Linux, you may know that all the programs are compiled using a makefile that describes all these command lines to execute. But for some projects, even writing a makefile can become tedious.
+</p><p><i>qmake</i> generates those makefiles for you. With a simple syntax, it produces the makefile that is used to compile a Qt program. But that is not its only goal. Qt uses meta-objects to extend C++ functionalities, and qmake is responsible to prepare a makefile that contains this meta-object extraction phase. You will see this in another chapter.
+</p><p>So, Qt apps are compiled in 3 steps
+</p>
+<ol>
+<li> A <i>.pro</i> file is written to describe the project to compile
+</li>
+<li> A makefile is generated using <i>qmake</i>
+</li>
+<li> The program is build using <i>make</i> (or <i>nmake</i> or <i>jom</i> on windows)
+</li>
+</ol>
+<h2><span class="mw-headline" id="A_pretty_button">A pretty button</span></h2>
+<p>This chapter gives an overview of the widgets modules. It will cover widgets properties, the inheritance scheme that is used in widgets, and also the parenting system.
+</p><p>Now that we have our button, we may want to customize it a bit.
+</p><p><a href="https://wiki.qt.io/File:Beginner-Pretty-Button.jpg" class="image"><img alt="Beginner-Pretty-Button.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginner-Pretty-Button.jpg" width="591" height="104"></a>
+</p><p>Qt objects have a lot of attributes that can be modified using getters and setters. In Qt, if an attribute is called <i>foo</i>, the associated getter and setter will have these signatures
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">T foo<span class="br0">(</span><span class="br0">)</span> const<span class="sy0">;</span>
+<span class="kw4">void</span> setFoo<span class="br0">(</span><span class="kw4">const</span> T<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>In fact, Qt extends this system of attributes and getters and setters to something called <i>property</i>. A property is a value of any type that can be accessed, be modified or constant, and can notify a change. The property system is useful, especially in the third part (QML). For now, we will use "attribute" or "property" to do the same thing.
+</p><p>A QPushButton has plenty of properties&nbsp;:
+</p>
+<ul>
+<li> text
+</li>
+<li> font
+</li>
+<li> tooltip
+</li>
+<li> icon
+</li>
+<li> ...
+</li>
+</ul>
+<p>So we can use these to customize the button.
+</p><p>Let's first change the text and add a tooltip
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw5">QPushButton</span> button<span class="sy0">;</span>
+ button.<span class="me1">setText</span><span class="br0">(</span><span class="st0">"My text"</span><span class="br0">)</span><span class="sy0">;</span>
+ button.<span class="me1">setToolTip</span><span class="br0">(</span><span class="st0">"A tooltip"</span><span class="br0">)</span><span class="sy0">;</span>
+ button.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>Here is the result:
+</p><p><a href="https://wiki.qt.io/File:Beginner-Test-Widget-Tooltip.jpg" class="image"><img alt="Beginner-Test-Widget-Tooltip.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginner-Test-Widget-Tooltip.jpg" width="229" height="151"></a>
+</p><p>We can also change the font. In Qt, a font is represented with the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qfont.html#">QFont</a></span> class. The documentation provides a lot of information. We are especially concerned here with one of the constructors of QFont.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QFont</span><span class="br0">(</span><span class="kw4">const</span> <span class="kw5">QString</span> <span class="sy0">&amp;</span> family<span class="sy0">,</span> <span class="kw4">int</span> pointSize <span class="sy0">=</span> –<span class="nu0">1</span><span class="sy0">,</span> <span class="kw4">int</span> weight <span class="sy0">=</span> <span class="sy0">-</span><span class="nu0">1</span><span class="sy0">,</span> <span class="kw4">bool</span> italic <span class="sy0">=</span> <span class="kw2">false</span><span class="br0">)</span></pre></div></div>
+<p>In order to change the font, we have to instantiate a <tt>QFont</tt> class, and pass it to the <tt>QPushButton</tt> using <tt>setFont</tt>. The following snippet will change the font to Courier.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QFont</span> font <span class="br0">(</span><span class="st0">"Courier"</span><span class="br0">)</span><span class="sy0">;</span>
+button.<span class="me1">setFont</span><span class="br0">(</span>font<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>You can try other parameters of QFont's constructor to reproduce the button that is represented in the first picture in this chapter.
+</p><p>Setting an icon is not very difficult either. An icon is represented with the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qicon.html#">QIcon</a></span> class. And you can create an icon provided that it has an absolute (or relative) path in the filesystem. I recommend providing the absolute path in this example. But for deployment considerations, you might use the relative path, or better, the resource system.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QIcon</span> icon <span class="br0">(</span><span class="st0">"/path/to/my/icon/icon.png"</span><span class="br0">)</span><span class="sy0">;</span>
+button.<span class="me1">setIcon</span><span class="br0">(</span>icon<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>On Linux, and some other OS's, there is a convenient way to set an icon from an icon theme. It can be done by using the static method
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QIcon</span> Qicon<span class="sy0">::</span><span class="me2">fromTheme</span> <span class="br0">(</span> <span class="kw4">const</span> <span class="kw5">QString</span> <span class="sy0">&amp;</span>name<span class="sy0">,</span> <span class="kw4">const</span> <span class="kw5">QIcon</span> <span class="sy0">&amp;</span>fallback <span class="sy0">=</span> <span class="kw5">QIcon</span><span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>For example, in the screenshot at the beginning of this chapter, the smiley comes from the Oxygen KDE icon theme and was set by
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">button.<span class="me1">setIcon</span><span class="br0">(</span><span class="kw5">QIcon</span><span class="sy0">::</span><span class="me2">fromTheme</span><span class="br0">(</span><span class="st0">"face-smile"</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<h2><span class="mw-headline" id="Qt_class_hierarchy">Qt class hierarchy</span></h2>
+<p>Qt widely uses inheritance, especially in the Widgets module. The following graph shows some of these inheritance
+</p><p><a href="https://wiki.qt.io/File:Beginner-Class-Hierarchy.jpg" class="image"><img alt="Beginner-Class-Hierarchy.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginner-Class-Hierarchy.jpg" width="615" height="336"></a>
+</p><p><span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qobject.html#">QObject</a></span> is the most basic class in Qt. Most of classes in Qt inherit from this class. QObject provides some very powerful capabilities like:
+</p>
+<ul>
+<li> <b>object name</b>&nbsp;: you can set a name, as a string, to an object and search for objects by names.
+</li>
+<li> <b>parenting system</b> (described in the following section)
+</li>
+<li> <b>signals and slots</b> (described in the next chapter)
+</li>
+<li> <b>event management</b>
+</li>
+</ul>
+<p>Widgets are able to respond to events and use parenting system and signals and slots mechanism. All widgets inherit from QObject. The most basic widget is the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qwidget.html#">QWidget</a></span>. QWidget contains most properties that are used to describe a window, or a widget, like position and size, mouse cursor, tooltips, etc.
+</p><p><b>Remark</b>&nbsp;: in Qt, a widget can also be a window. In the previous section we displayed a button, that is a widget, but it appears directly as a window. There is no need of a "QWindow" class.
+</p><p>Nearly all graphical elements inherit from QWidget. We can list for example
+</p>
+<pre>QAbstractButton, a base class for all button types
+  QPushButton
+  QCheckBox
+  QRadioButton
+QFrame, that displays a frame
+QLabel, that displays text or picture
+</pre>
+<p>This inheritance is done in order to facilitate properties management. Shared properties like size are cursors can be used on other graphical components, and <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qabstractbutton.html#">QAbstractButton</a></span> provides basic properties that are shared by all buttons.
+</p>
+<h2><span class="mw-headline" id="Parenting_system">Parenting system</span></h2>
+<p>Parenting system is a convenient way of dealing with objects in Qt, especially widgets. Any object that inherits from <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qobject.html#">QObject</a></span> can have a parent and children. This hierarchy tree makes many things convenient:
+</p>
+<ul>
+<li> When an object is destroyed, all of its children are destroyed as well. So calling <i>delete</i> becomes optional in certain cases
+</li>
+<li> All QObjects have <i>findChild</i> and <i>findChildren</i> methods that can be used to search for children of a given object.
+</li>
+<li> Child widgets in a <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qwidget.html#">QWidget</a></span> automatically appear inside the parent widget.
+</li>
+</ul>
+<p>The following snippet that creates a <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qpushbutton.html#">QPushButton</a></span> inside a QPushButton:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw5">QPushButton</span> button1 <span class="br0">(</span><span class="st0">"test"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="kw5">QPushButton</span> button2 <span class="br0">(</span><span class="st0">"other"</span><span class="sy0">,</span> <span class="sy0">&amp;</span>button1<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ button1.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p><a href="https://wiki.qt.io/File:Beginner-Test-Widget.jpg" class="image"><img alt="Beginner-Test-Widget.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginner-Test-Widget.jpg" width="261" height="186"></a>
+</p><p>You can also note that when the application is closed, <tt>button1</tt>, which is allocated on the stack, is deallocated. Since <tt>button2</tt> has <tt>button1</tt> as a parent, it is deleted also. You can even test this in Qt Creator in the analyze section, by searching for a memory leak — there won't be any.
+</p><p>There is clearly no benefit in putting a button inside a button, but based on this idea, we might want to put buttons inside a container, that does not display anything. This container is simply the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qwidget.html#">QWidget</a></span>. 
+</p><p>The following code is used to display a button inside a widget:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw5">QWidget</span> window<span class="sy0">;</span>
+ window.<span class="me1">setFixedSize</span><span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="sy0">&amp;</span>window<span class="br0">)</span><span class="sy0">;</span>
+ button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ window.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>Note that we create a fixed size widget (that acts as a window) using <i>setFixedSize</i>. This method has the following signature
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QWidget</span><span class="sy0">::</span><span class="me2">setFixedSize</span><span class="br0">(</span><span class="kw4">int</span> width<span class="sy0">,</span> <span class="kw4">int</span> height<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>We also positioned the button using <i>setGeometry</i>. This method has the following signature
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QWidget</span><span class="sy0">::</span><span class="me2">setGeometry</span><span class="br0">(</span><span class="kw4">int</span> x<span class="sy0">,</span> <span class="kw4">int</span> y<span class="sy0">,</span> <span class="kw4">int</span> width<span class="sy0">,</span> <span class="kw4">int</span> height<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<h2><span class="mw-headline" id="Subclassing_QWidget">Subclassing QWidget</span></h2>
+<p>Until now, we have put all of our code in the <i>main</i> function. This was not a problem for our simple examples, but for more and more complex applications we might want to split our code into different classes. What is often done is to create a class that is used to display a window, and implement all the widgets that are contained in this window as attributes of this class.
+</p><p>Inside Qt Creator, you can automatically create a new class with File &gt; New file or project &gt; C++ &gt; C++ Class
+</p><p><a href="https://wiki.qt.io/File:Beginner-Class-Wizard.jpg" class="image"><img alt="Beginner-Class-Wizard.jpg" src="./Qt for Beginners - Qt Wiki_files/Beginner-Class-Wizard.jpg" width="703" height="467"></a>
+</p><p>Make the class inherit from QWidget, and you should obtain code similar to below
+</p><p><i>Header</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#ifndef WINDOW_H</span>
+<span class="co2">#define WINDOW_H</span>
+&nbsp;
+<span class="co2">#include &lt;QWidget&gt;</span>
+&nbsp;
+<span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+ <span class="kw2">public</span><span class="sy0">:</span>
+  <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw2">signals</span><span class="sy0">:</span>
+ <span class="kw2">public</span> <span class="kw2">slots</span><span class="sy0">:</span>
+<span class="br0">}</span><span class="sy0">;</span>
+&nbsp;
+<span class="co2">#endif // WINDOW_H</span></pre></div></div>
+<p><i>Source</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span></pre></div></div>
+<p>You can see that Qt Creator automatically generates a class template. Notice that there are some new elements in the header&nbsp;:
+</p>
+<ul>
+<li> The <b>Q_OBJECT</b> macro.
+</li>
+<li> A new category of methods&nbsp;: <b>signals</b>
+</li>
+<li> A new category of methods&nbsp;: <b>public slots</b>
+</li>
+</ul>
+<p>All these elements will be explained in the next chapter, and none of them are needed now.
+Implementing the window is done in the constructor. We can declare the size of the window, as well as the widgets that this window contains and their positions. For example, implementing the previous window that contains a button can be done in this way&nbsp;:
+</p><p><i>main.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include "window.h"</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ Window window<span class="sy0">;</span>
+ window.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p><i>window.h</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#ifndef WINDOW_H</span>
+<span class="co2">#define WINDOW_H</span>
+&nbsp;
+<span class="co2">#include &lt;QWidget&gt;</span>
+&nbsp;
+<span class="kw2">class</span> QPushButton<span class="sy0">;</span>
+<span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">public</span><span class="sy0">:</span>
+  <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span>
+&nbsp;
+<span class="co2">#endif // WINDOW_H</span></pre></div></div>
+<p><i>window.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+ <span class="br0">{</span>
+ <span class="co1">// Set size of the window</span>
+ setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Create and position the button</span>
+ m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>Please note that there is no need for writing a destructor for deleting <tt>m_button</tt>. With the parenting system, when the <tt>Window</tt> instance is out of the stack, the <tt>m_button</tt> is automatically deleted.
+</p>
+<h2><span class="mw-headline" id="Further_Reading">Further Reading</span></h2>
+<p>A better overview of <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qpushbutton.html#">QPushButton</a></span> is given in this wiki page <a href="https://wiki.qt.io/How_to_Use_QPushButton" title="How to Use QPushButton">How to Use QPushButton</a>
+</p>
+<h2><span class="mw-headline" id="The_observer_pattern">The observer pattern</span></h2>
+<p>Nearly all UI toolkits have a mechanism to detect a user action, and respond to this action. Some of them use <i>callbacks</i>, others use <i>listeners</i>, but basically, all of them are inspired by the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Observer_pattern">observer pattern</a>.
+</p><p>Observer pattern is used when an <i>observable</i> object wants to notify other <i>observers</i> objects about a state change. Here are some concrete examples:
+</p>
+<ul>
+<li> A user has clicked on a button, and a menu should be displayed.
+</li>
+<li> A web page just finished loading, and a process should extract some information from this loaded page.
+</li>
+<li> An user is scrolling through a list of items (in an app store for example), and reached the end, so other items should be loaded.
+</li>
+</ul>
+<p>Observer pattern is used everywhere in GUI application, and often lead to some <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/Boilerplate_code">boilerplate code</a>. Qt was created with the idea of removing this boilerplate code and providing a nice and clean syntax, and the signal and slots mechanism is the answer.
+</p>
+<h2><span class="mw-headline" id="Signals_and_slots">Signals and slots</span></h2>
+<p>Instead of having observable and observers, and registering them, Qt provides two high level concepts: <b>signals</b> and <b>slots</b>.
+</p>
+<ul>
+<li> A <b>signal</b> is a message that an object can send, most of the time to inform of a status change.
+</li>
+<li> A <b>slot</b> is a function that is used to respond to a signal.
+</li>
+</ul>
+<p>Here are some examples of signals and slots from our well known <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qpushbutton.html#">QPushButton</a></span> class.
+</p>
+<ul>
+<li> <tt>clicked</tt>
+</li>
+<li> <tt>pressed</tt>
+</li>
+<li> <tt>released</tt>
+</li>
+</ul>
+<p>As you can see, their names are quite explicit. These signals are sent when the user clicked (pressed then released) , pressed or released the button.
+</p><p>Here are some slots, from different classes
+</p>
+<ul>
+<li> <tt>QApplication::quit</tt>
+</li>
+<li> <tt>QWidget::setEnabled</tt>
+</li>
+<li> <tt>QPushButton::setText</tt>
+</li>
+</ul>
+<p>In order to respond to a signal, a slot must be <i>connected</i> to a signal. Qt provides the method QObject::<b>connect</b>. It is used this way, with the two macros <b><tt>SIGNAL</tt></b> and <b><tt>SLOT</tt></b>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">FooObjectA <span class="sy0">*</span>fooA <span class="sy0">=</span> <span class="kw1">new</span> FooObjectA<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+FooObjectB <span class="sy0">*</span>fooB <span class="sy0">=</span> <span class="kw1">new</span> FooObjectB<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw5">QObject</span><span class="sy0">::</span><span class="kw2">connect</span><span class="br0">(</span>fooA<span class="sy0">,</span> SIGNAL <span class="br0">(</span>bared<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> fooB<span class="sy0">,</span> SLOT <span class="br0">(</span>baz<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>assuming that <tt>FooObjectA</tt> have a <tt>bared</tt> signal, and <tt>FooObjectB</tt> have a <tt>baz</tt> slot.
+</p><p>You have to write the signature of the signal and the slot inside the two macros <i>SIGNAL</i> and <i>SLOT</i>. If you want to get some information about what these macros do, please read the last section of this chapter.
+</p><p><b>Remark</b>&nbsp;: Basically, signals and slots are methods, that might or might not have arguments, but that never return anything. While the notion of a signal as a method is generally quite blur, a slot is actually a real method, and can be called as usual in other methods, or while respoing to a signal.
+</p>
+<h2><span class="mw-headline" id="Transmitting_information">Transmitting information</span></h2>
+<p>The signals and slots mechanism is useful to respond to buttons clicks, but it can do much more than that. For example, It can also be used communicate information. Lets say while playing a song, a progress bar is needed to show how much time remains before the song is over. A media player might have a class that is used to check the progress of the media. An instance of this class might periodically send a <i>tick</i> signal, with the progress value. This signal can be connected to a <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qprogressbar.html#">QProgressBar</a></span>, that can be used to display the progress.
+</p><p>The hypothetical class used to check the progress might have a signal that have this signature&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> MediaProgressManager<span class="sy0">::</span><span class="me2">tick</span><span class="br0">(</span><span class="kw4">int</span> miliseconds<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>and we know from the documentation, that the QProgressBar has this slot
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QProgressBar</span><span class="sy0">::</span><span class="me2">setValue</span><span class="br0">(</span><span class="kw4">int</span> value<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>You can see that the signal and the slot have the same kind of parameters, especially the type. If you connect a signal to a slot that do not share the same kind of parameters, while the connection is done (at run-time) you will get a warning like
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QObject</span><span class="sy0">::</span><span class="kw2">connect</span><span class="sy0">:</span> Incompatible sender<span class="sy0">/</span>receiver arguments</pre></div></div>
+<p>It is because the signal transmits the information to the slot using the parameters. The first parameter of the signal is passed to the first one of the slot, and the same for second, third, and so forth.
+</p><p>The code for the connection will look like this:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">MediaProgressManager <span class="sy0">*</span>manager <span class="sy0">=</span> <span class="kw1">new</span> MediaProgressManager<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw5">QProgressBar</span> <span class="sy0">*</span>progress <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QProgressBar</span><span class="br0">(</span>window<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw5">QObject</span><span class="sy0">::</span><span class="kw2">connect</span><span class="br0">(</span>manager<span class="sy0">,</span> SIGNAL <span class="br0">(</span>tick<span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> progress<span class="sy0">,</span> SLOT <span class="br0">(</span>setValue<span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>You can see that you have to provide a signature inside the <i>SIGNAL</i> and <i>SLOT</i> macro, providing the type of the value that are passed through the signals. You may not provide the name of the variable if you want. (It is actually even better).
+</p>
+<h2><span class="mw-headline" id="Features_of_signals_and_slots">Features of signals and slots</span></h2>
+<ul>
+<li>A signal can be connected to several slots
+</li>
+<li> Many signals can be connected to a slot
+</li>
+<li> A signal can be connected to a signal: it is signal relaying. The second signal is sent if the first signal is sent.
+</li>
+</ul>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<h3><span class="mw-headline" id="Responding_to_an_event">Responding to an event</span></h3>
+<p>Remember our button app&nbsp;? Let's try to actually make something with this app, like be able to close it while clicking on the button. We already know that <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qpushbutton.html#">QPushButton</a></span> provides the <i>clicked</i> signal. We also have to know that <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qapplication.html#">QApplication</a></span> provides the <i>quit</i> slot, that closes the application.
+</p><p>In order to make a click on a button to close the app, we have to connect the signal <i>clicked</i> of the button to the <i>quit</i> slot of QApplication instance. We can modify the code from previous chapter to do this, but before, you might wonder how to access to the QApplication instance while you are in another class. Actually, it is pretty simple, since there exists a static function in <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qapplication.html#">QApplication</a></span>, with the following signature, that is used to get it
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QApplication</span> <span class="sy0">*</span> <span class="kw5">QApplication</span><span class="sy0">::</span><span class="me2">instance</span><span class="br0">(</span><span class="br0">)</span></pre></div></div>
+<p>This leads to the following modification of our previous code
+</p><p><i>window.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+&nbsp;
+<span class="co2">#include &lt;QApplication&gt;</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+ <span class="br0">{</span>
+  <span class="co1">// Set size of the window</span>
+  setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+  <span class="co1">// Create and position the button</span>
+  m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+  m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+  <span class="co1">// NEW&nbsp;: Do the connection</span>
+  <span class="kw2">connect</span><span class="br0">(</span>m_button<span class="sy0">,</span> SIGNAL <span class="br0">(</span>clicked<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw5">QApplication</span><span class="sy0">::</span><span class="me2">instance</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">,</span> SLOT <span class="br0">(</span>quit<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span></pre></div></div>
+<p>While clicking on the button inside of the window, the application should quit.
+</p>
+<h2><span class="mw-headline" id="Transmitting_information_with_signals_and_slots">Transmitting information with signals and slots</span></h2>
+<p>Here is a simpler example for information transmission. It only displays a progress bar and a slider (created by <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qslider.html#">QSlider</a></span>) inside a window, and while the slider is moved, the value of the progress bar is synced with a very simple connection.
+</p><p>The interesting signals and slots are
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QSlider</span><span class="sy0">::</span><span class="me2">valueChanged</span><span class="br0">(</span><span class="kw4">int</span> value<span class="br0">)</span><span class="sy0">;</span>
+<span class="kw4">void</span> <span class="kw5">QProgressBar</span><span class="sy0">::</span><span class="me2">setValue</span><span class="br0">(</span><span class="kw4">int</span> value<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>QSlider automatically emits the signal <tt>valueChanged</tt> with the new value passed as parameter while the value is changed, and the method <tt>setValue</tt> of QProgressBar, is used, as we have seen, to set the value of the progress bar.
+</p><p>This leads to the following code
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QProgressBar&gt;</span>
+<span class="co2">#include &lt;QSlider&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Create a container window</span>
+ <span class="kw5">QWidget</span> window<span class="sy0">;</span>
+ window.<span class="me1">setFixedSize</span><span class="br0">(</span><span class="nu0">200</span><span class="sy0">,</span> <span class="nu0">80</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Create a progress bar</span>
+ <span class="co1">// with the range between 0 and 100, and a starting value of 0</span>
+ <span class="kw5">QProgressBar</span> <span class="sy0">*</span>progressBar <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QProgressBar</span><span class="br0">(</span><span class="sy0">&amp;</span>window<span class="br0">)</span><span class="sy0">;</span>
+ progressBar<span class="sy0">-&gt;</span><span class="me3">setRange</span><span class="br0">(</span><span class="nu0">0</span><span class="sy0">,</span> <span class="nu0">100</span><span class="br0">)</span><span class="sy0">;</span>
+ progressBar<span class="sy0">-&gt;</span><span class="me3">setValue</span><span class="br0">(</span><span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+ progressBar<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">180</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Create a horizontal slider</span>
+ <span class="co1">// with the range between 0 and 100, and a starting value of 0</span>
+ <span class="kw5">QSlider</span> <span class="sy0">*</span>slider <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QSlider</span><span class="br0">(</span><span class="sy0">&amp;</span>window<span class="br0">)</span><span class="sy0">;</span>
+ slider<span class="sy0">-&gt;</span><span class="me3">setOrientation</span><span class="br0">(</span><span class="kw5">Qt</span><span class="sy0">::</span><span class="me2">Horizontal</span><span class="br0">)</span><span class="sy0">;</span>
+ slider<span class="sy0">-&gt;</span><span class="me3">setRange</span><span class="br0">(</span><span class="nu0">0</span><span class="sy0">,</span> <span class="nu0">100</span><span class="br0">)</span><span class="sy0">;</span>
+ slider<span class="sy0">-&gt;</span><span class="me3">setValue</span><span class="br0">(</span><span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+ slider<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">40</span><span class="sy0">,</span> <span class="nu0">180</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ window.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Connection</span>
+ <span class="co1">// This connection set the value of the progress bar</span>
+ <span class="co1">// while the slider's value changes</span>
+ <span class="kw5">QObject</span><span class="sy0">::</span><span class="kw2">connect</span><span class="br0">(</span>slider<span class="sy0">,</span> SIGNAL <span class="br0">(</span>valueChanged<span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> progressBar<span class="sy0">,</span> SLOT <span class="br0">(</span>setValue<span class="br0">(</span><span class="kw4">int</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<h2><span class="mw-headline" id="Technical_aspect">Technical aspect</span></h2>
+<p>This section can be skipped for now if you only want to program with Qt. Just know that you need to put <b>SIGNAL</b> and <b>SLOT</b> around the signals and slots while calling <tt>connect</tt>. If you want to know how Qt works, it is better to read this.
+</p>
+<h2><span class="mw-headline" id="The_Meta_Object">The Meta Object</span></h2>
+<p>Qt provides a <i>meta-object</i> system. Meta-object (literally "over the object") is a way to achieve some programming paradigms that are normally impossible to achieve with pure C++ like
+</p>
+<ul>
+<li> <b>Introspection</b>&nbsp;: capability of examining a type at run-time
+</li>
+<li> <b>Asynchronous function calls</b> 
+</li>
+</ul>
+<p>To use such meta-object capabilites in an application, one can subclass <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qobject.html#">QObject</a></span> and mark it so that the meta-object compiler (moc), can interpret and translate it.
+</p><p>Code produced by moc includes signals and slots signatures, methods that are used to retrieve meta-information from those marked classes, properties handling... All these information can be accessed using the following method
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">const</span> <span class="kw5">QMetaObject</span> <span class="sy0">*</span> <span class="kw5">QObject</span><span class="sy0">::</span><span class="me2">metaObject</span> <span class="br0">(</span><span class="br0">)</span> <span class="kw4">const</span></pre></div></div>
+<p><span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qmetaobject.html#">QMetaObject</a></span> class contains all the methods that deals with meta-object.
+</p>
+<h2><span class="mw-headline" id="Important_macros">Important macros</span></h2>
+<p>The most important macro is <b>Q_OBJECT</b>. Signal-Slot connections and their syntax cannot be intepreted by regular C++ compiler. The moc is provided to translate the QT syntax like "connect", "signals", "slots", etc into regular C++ syntax.
+This is done by specifying the <b>Q_OBJECT</b> macro in the header containing class definitions that use such syntax.
+</p><p><i>mywidget.h</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">class</span> MyWidget <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+ <span class="kw2">public</span><span class="sy0">:</span>
+  MyWidget<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>Others marker macros for moc are
+</p>
+<ul>
+<li> <b>signals</b>
+</li>
+<li> public / protected / private <b>slots</b>
+</li>
+</ul>
+<p>that mark the different methods that need to be extended.
+</p><p><b>SIGNAL</b> and <b>SLOT</b> are also two very important and useful macros. When a signal is emitted, the meta-object system is used to compare the signature of the signal, to check connection, and to find the slot using it's signature. These macros are actually used to convert the provided method signature into a string that match the one stored in the meta-object.
+</p>
+<h2><span class="mw-headline" id="Creating_custom_signals_and_slots">Creating custom signals and slots</span></h2>
+<p>This chapter covers the second part of signals and slots: implementing custom signals and slots.
+</p><p>Creating custom slots and signals is really simple. Slots are like normal methods, but with small decorations around. While signals needs little to no implementation at all.
+</p><p>Creating custom signals and slots is very simple. It is described by the following checklist
+</p>
+<ul>
+<li> add <b>Q_OBJECT</b> macro
+</li>
+<li> add <b>signals</b> section, and write signals prototypes.
+</li>
+<li> add <b>public slots</b> or <b>protected slots</b> or <b>private slots</b> sections, and write slots prototypes.
+</li>
+<li> implement slots as normal methods.
+</li>
+<li> establish connections.
+</li>
+</ul>
+<h3><span class="mw-headline" id="Creating_custom_slots">Creating custom slots</span></h3>
+<p>In order to implement a slot, we first need to make the class be able to send signals and have slots (see previous chapter). This is done by setting the <b>Q_OBJECT</b> macro in the class declaration (often in the header).
+</p><p>After that, a slot should be declared in the corresponding section, and implemented as a normal method.
+</p><p>Finally, slots are connected to signals.
+</p>
+<h3><span class="mw-headline" id="Creating_signals">Creating signals</span></h3>
+<p>As for slots, we first need to add the <b>Q_OBJECT</b> macro.
+</p><p>Signals should also be declared in the <i>signals</i> section, and there is no need for them to be implemented.
+</p><p>They are emitted using the <b>emit</b> keyword&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">emit mySignal<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>Note that in order to send signals that have parameters, you have to pass them in the signal emission
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">emit mySignal<span class="br0">(</span>firstParameter<span class="sy0">,</span> secondParameter …<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<h3><span class="mw-headline" id="Example">Example</span></h3>
+<h4><span class="mw-headline" id="Creating_custom_slots_2">Creating custom slots</span></h4>
+<p>Let's start with our window with the button&nbsp;:
+</p><p><i>window.h</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#ifndef WINDOW_H</span>
+<span class="co2">#define WINDOW_H</span>
+&nbsp;
+<span class="co2">#include &lt;QWidget&gt;</span>
+&nbsp;
+<span class="kw2">class</span> QPushButton<span class="sy0">;</span>
+<span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span>
+&nbsp;
+<span class="co2">#endif // WINDOW_H</span></pre></div></div>
+<p><i>window.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+&nbsp;
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="co1">// Set size of the window</span>
+ setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Create and position the button</span>
+ m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>We might want to remove our previous connection that makes the application quit while clicking on the button. Now, we want that, when clicking on the button, the text is changed. More precisely, we want that the button can be <i>checked</i>, and that, when checked, it displays "checked", and when unchecked, it restores "Hello World".
+</p><p>QPushButton does not implement such a specific slot, so we have to implement it on our own. As stated previously, we have to add the <b>Q_OBJECT</b> macro.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span></pre></div></div>
+<p>We also add our custom slot. Since we are trying to react from the button being checked, and since the corresponding signal is
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QPushButton</span><span class="sy0">::</span><span class="me2">clicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span></pre></div></div>
+<p>we might implement a slot that has this signature&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>Most of the time, by convention, we implement private and protected slots by prefixing them with "slot". Here, we are not interested in exposing this slot as a public function, we can make it private. The new header is then
+</p><p><i>window.h</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#ifndef WINDOW_H</span>
+<span class="co2">#define WINDOW_H</span>
+&nbsp;
+<span class="co2">#include &lt;QWidget&gt;</span>
+&nbsp;
+<span class="kw2">class</span> QPushButton<span class="sy0">;</span>
+<span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span> <span class="kw2">slots</span><span class="sy0">:</span>
+ <span class="kw4">void</span> slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span>
+&nbsp;
+<span class="co2">#endif // WINDOW_H</span></pre></div></div>
+<p>The implementation of this slot is
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw1">if</span> <span class="br0">(</span>checked<span class="br0">)</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Checked"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span> <span class="kw1">else</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+<span class="br0">}</span></pre></div></div>
+<p>We need to make the button checkable, and establish the connection, we have to add this code in the constructor&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">m_button<span class="sy0">-&gt;</span><span class="me3">setCheckable</span><span class="br0">(</span><span class="kw2">true</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw2">connect</span><span class="br0">(</span>m_button<span class="sy0">,</span> SIGNAL <span class="br0">(</span>clicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw1">this</span><span class="sy0">,</span> SLOT <span class="br0">(</span>slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>The resulting code is then
+</p><p><i>window.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+&nbsp;
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="co1">// Set size of the window</span>
+ setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+ <span class="co1">// Create and position the button</span>
+ m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setCheckable</span><span class="br0">(</span><span class="kw2">true</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw2">connect</span><span class="br0">(</span>m_button<span class="sy0">,</span> SIGNAL <span class="br0">(</span>clicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw1">this</span><span class="sy0">,</span> SLOT <span class="br0">(</span>slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw1">if</span> <span class="br0">(</span>checked<span class="br0">)</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Checked"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span> <span class="kw1">else</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+<span class="br0">}</span></pre></div></div>
+<h4><span class="mw-headline" id="Emitting_custom_signals">Emitting custom signals</span></h4>
+<p>Based on the previous example, we want to close the application if the button is clicked (checked or unchecked) 10 times. We first need to implement a counter that will count the number of clicks. These modifications implement it
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span> <span class="kw2">slots</span><span class="sy0">:</span>
+ <span class="kw4">void</span> slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw4">int</span> m_counter<span class="sy0">;</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span></pre></div></div>
+<p>and
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="co1">// Set size of the window</span>
+ setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Create and position the button</span>
+ m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setCheckable</span><span class="br0">(</span><span class="kw2">true</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Set the counter to 0</span>
+ m_counter <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw2">connect</span><span class="br0">(</span>m_button<span class="sy0">,</span> SIGNAL <span class="br0">(</span>clicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw1">this</span><span class="sy0">,</span> SLOT <span class="br0">(</span>slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw1">if</span> <span class="br0">(</span>checked<span class="br0">)</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Checked"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span> <span class="kw1">else</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+&nbsp;
+m_counter <span class="sy0">++;</span>
+<span class="br0">}</span></pre></div></div>
+Now, we have to create a custom signal that is used to notify other components, that the counter has reached 10. In order to declare a signal, we have to add a <div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">signals</span></pre></div></div> section in the header. We might also declare a signal with the following signature
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">counterReached</span><span class="br0">(</span><span class="br0">)</span></pre></div></div>
+<p>The header class is then declared as followed
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">signals</span><span class="sy0">:</span>
+ <span class="kw4">void</span> counterReached<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span> <span class="kw2">slots</span><span class="sy0">:</span>
+ <span class="kw4">void</span> slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw4">int</span> m_counter<span class="sy0">;</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span></pre></div></div>
+<p>Even if the signal is declared as a method, there is no need to implement it. The meta-object compiler is used to do this.
+</p><p>Now we need to emit the signal when the counter reaches 10. It is simply done in the slot
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw1">if</span> <span class="br0">(</span>checked<span class="br0">)</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Checked"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span> <span class="kw1">else</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+&nbsp;
+m_counter <span class="sy0">++;</span>
+ <span class="kw1">if</span> <span class="br0">(</span>m_counter <span class="sy0">==</span> <span class="nu0">10</span><span class="br0">)</span> <span class="br0">{</span>
+ emit counterReached<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+<span class="br0">}</span></pre></div></div>
+<p>We need to write the keyword <b>emit</b> to send the signal.
+</p><p>Connecting the newly created signal to the <tt>quit</tt> slot is done as usual
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw2">connect</span><span class="br0">(</span><span class="kw1">this</span><span class="sy0">,</span> SIGNAL <span class="br0">(</span>counterReached<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw5">QApplication</span><span class="sy0">::</span><span class="me2">instance</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">,</span> SLOT <span class="br0">(</span>quit<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>The final code is
+</p><p><i>window.h</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#ifndef WINDOW_H</span>
+<span class="co2">#define WINDOW_H</span>
+&nbsp;
+<span class="co2">#include &lt;QWidget&gt;</span>
+&nbsp;
+<span class="kw2">class</span> QPushButton<span class="sy0">;</span>
+<span class="kw2">class</span> Window <span class="sy0">:</span> <span class="kw2">public</span> <span class="kw5">QWidget</span>
+<span class="br0">{</span>
+ <span class="kw2">Q_OBJECT</span>
+<span class="kw2">public</span><span class="sy0">:</span>
+ <span class="kw2">explicit</span> Window<span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent <span class="sy0">=</span> <span class="nu0">0</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">signals</span><span class="sy0">:</span>
+ <span class="kw4">void</span> counterReached<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span> <span class="kw2">slots</span><span class="sy0">:</span>
+ <span class="kw4">void</span> slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span><span class="sy0">;</span>
+<span class="kw2">private</span><span class="sy0">:</span>
+ <span class="kw4">int</span> m_counter<span class="sy0">;</span>
+ <span class="kw5">QPushButton</span> <span class="sy0">*</span>m_button<span class="sy0">;</span>
+<span class="br0">}</span><span class="sy0">;</span>
+&nbsp;
+<span class="co2">#endif // WINDOW_H</span></pre></div></div>
+<p><i>window.cpp</i>
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include "window.h"</span>
+&nbsp;
+<span class="co2">#include &lt;QPushButton&gt;</span>
+<span class="co2">#include &lt;QApplication&gt;</span>
+&nbsp;
+Window<span class="sy0">::</span><span class="me2">Window</span><span class="br0">(</span><span class="kw5">QWidget</span> <span class="sy0">*</span>parent<span class="br0">)</span> <span class="sy0">:</span>
+ <span class="kw5">QWidget</span><span class="br0">(</span>parent<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="co1">// Set size of the window</span>
+ setFixedSize<span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">50</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Create and position the button</span>
+ m_button <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="sy0">,</span> <span class="kw1">this</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setCheckable</span><span class="br0">(</span><span class="kw2">true</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Set the counter to 0</span>
+ m_counter <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw2">connect</span><span class="br0">(</span>m_button<span class="sy0">,</span> SIGNAL <span class="br0">(</span>clicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw1">this</span><span class="sy0">,</span> SLOT <span class="br0">(</span>slotButtonClicked<span class="br0">(</span><span class="kw4">bool</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="kw2">connect</span><span class="br0">(</span><span class="kw1">this</span><span class="sy0">,</span> SIGNAL <span class="br0">(</span>counterReached<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">,</span> <span class="kw5">QApplication</span><span class="sy0">::</span><span class="me2">instance</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">,</span> SLOT <span class="br0">(</span>quit<span class="br0">(</span><span class="br0">)</span><span class="br0">)</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="kw4">void</span> Window<span class="sy0">::</span><span class="me2">slotButtonClicked</span><span class="br0">(</span><span class="kw4">bool</span> checked<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw1">if</span> <span class="br0">(</span>checked<span class="br0">)</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Checked"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span> <span class="kw1">else</span> <span class="br0">{</span>
+ m_button<span class="sy0">-&gt;</span><span class="me3">setText</span><span class="br0">(</span><span class="st0">"Hello World"</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+&nbsp;
+m_counter <span class="sy0">++;</span>
+ <span class="kw1">if</span> <span class="br0">(</span>m_counter <span class="sy0">==</span> <span class="nu0">10</span><span class="br0">)</span> <span class="br0">{</span>
+ emit counterReached<span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+ <span class="br0">}</span>
+<span class="br0">}</span></pre></div></div>
+<p>And you can try and check that after clicking the button ten times, the application will quit.
+</p>
+<h2><span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h2>
+<p>While compiling your program, especially when you are adding the macro Q_OBJECT, you might have this compilation error.
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1">main.<span class="me1">cpp</span><span class="sy0">:</span><span class="br0">(</span>.<span class="me1">text</span>._ZN6WindowD2Ev<span class="br0">[</span>_ZN6WindowD5Ev<span class="br0">]</span><span class="sy0">+</span><span class="nu12">0x3</span><span class="br0">)</span><span class="sy0">:</span> undefined reference to `vtable <span class="kw1">for</span> Window<span class="st0">'</span></pre></div></div>
+<p>This is because of the meta-object compiler not being run on a class that should have meta-object. You should <b>rerun qmake</b>, by doing Build &gt; Run qmake.
+</p>
+<h2><span class="mw-headline" id="Widgets">Widgets</span></h2>
+<p>Radio button is a standard GUI component. It is often used to make a unique choice from a list. In Qt, the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qradiobutton.html#">QRadioButton</a></span> is used to create radio buttons.
+</p><p>Thanks to a nice heritance, a QRadioButton just behaves like a QPushButton. All properties of the QPushButton are also the same in the QRadioButton, and everything that was learnt in the second chapter can be reused here
+</p>
+<ul>
+<li> text
+</li>
+<li> icon
+</li>
+<li> tooltip
+</li>
+<li> ...
+</li>
+</ul>
+<p>By default, QRadioButtons are not grouped, so many of them can be checked at the same time. In order to have the "exclusive" behaviour of many radio buttons, we need to use <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qbuttongroup.html#">QButtonGroup</a></span>. This class can be used like this: We allocate a new button group and attach it to the parent object. Note that the parent object might be the mainwindow, or "this"
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw5">QButtonGroup</span> <span class="sy0">*</span>buttonGroup <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QButtonGroup</span><span class="br0">(</span>object<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Add buttons in the button group</span>
+buttonGroup<span class="sy0">-&gt;</span><span class="me3">addButton</span><span class="br0">(</span>button1<span class="br0">)</span><span class="sy0">;</span>
+buttonGroup<span class="sy0">-&gt;</span><span class="me3">addButton</span><span class="br0">(</span>button2<span class="br0">)</span><span class="sy0">;</span>
+buttonGroup<span class="sy0">-&gt;</span><span class="me3">addButton</span><span class="br0">(</span>button3<span class="br0">)</span><span class="sy0">;</span>
+...</pre></div></div>
+<p>What we want is to create a menu picker. In a window, a list of yummy plates should be displayed with radio buttons, and a push button that is used to select the chosen plate should be displayed.
+</p><p>Obviously, nothing will happen (now) when the buttons are clicked.
+</p>
+<h2><span class="mw-headline" id="Signals_and_slots_2">Signals and slots</span></h2>
+<p>Here is an example about signals and slots. We are going to write an application with two buttons. The first button should display information about Qt.
+</p><p>We provide you the following code to complete&nbsp;:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="co2">#include &lt;QApplication&gt;</span>
+<span class="co2">#include &lt;QPushButton&gt;</span>
+&nbsp;
+<span class="kw4">int</span> main<span class="br0">(</span><span class="kw4">int</span> argc<span class="sy0">,</span> <span class="kw4">char</span> <span class="sy0">**</span>argv<span class="br0">)</span>
+<span class="br0">{</span>
+ <span class="kw5">QApplication</span> app <span class="br0">(</span>argc<span class="sy0">,</span> argv<span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw5">QWidget</span> window<span class="sy0">;</span>
+ window.<span class="me1">setFixedSize</span><span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">80</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw5">QPushButton</span> <span class="sy0">*</span>buttonInfo <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Info"</span><span class="sy0">,</span> <span class="sy0">&amp;</span>window<span class="br0">)</span><span class="sy0">;</span>
+ buttonInfo<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="kw5">QPushButton</span> <span class="sy0">*</span>buttonQuit <span class="sy0">=</span> <span class="kw1">new</span> <span class="kw5">QPushButton</span><span class="br0">(</span><span class="st0">"Quit"</span><span class="sy0">,</span> <span class="sy0">&amp;</span>window<span class="br0">)</span><span class="sy0">;</span>
+ buttonQuit<span class="sy0">-&gt;</span><span class="me3">setGeometry</span><span class="br0">(</span><span class="nu0">10</span><span class="sy0">,</span> <span class="nu0">40</span><span class="sy0">,</span> <span class="nu0">80</span><span class="sy0">,</span> <span class="nu0">30</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+window.<span class="me1">show</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+&nbsp;
+<span class="co1">// Add your code here</span>
+&nbsp;
+<span class="kw1">return</span> app.<span class="me1">exec</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span></pre></div></div>
+<p>In order to display the information about Qt, you should use the following method
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="cpp-qt source-cpp-qt"><pre class="de1"><span class="kw4">void</span> <span class="kw5">QApplication</span><span class="sy0">::</span><span class="me2">aboutQt</span><span class="br0">(</span><span class="br0">)</span><span class="sy0">;</span></pre></div></div>
+<p>You can also add icons on the buttons, or resize them. Obviously, the "Quit" button should be more important, so why not make it bigger?
+</p><p>But we really recommend you to try and figure it out by yourself how to solve these exercises.
+</p>
+<h2><span class="mw-headline" id="Qt_for_beginners_.E2.80.94_Finding_information_in_the_documentation">Qt for beginners — Finding information in the documentation</span></h2>
+<p>Qt documentation is a very valuable piece of information. It is the place to find <i>everything</i> related to Qt. But, Qt documentation is not a tutorial on how to use Qt. It is a collection of all information related to classes, as well as some examples. The goal of this chapter is to introduce you to the documentation as a basis for programming with Qt.
+</p>
+<h2><span class="mw-headline" id="Where_to_find_the_documentation">Where to find the documentation</span></h2>
+<p>The best source of documentation is on the internet, in this developer network&nbsp;:
+</p><p><a rel="nofollow" class="external text" href="http://doc.qt.io/">Qt documentation on developer network</a>
+</p><p>It provides the full doc, as well as some DocNotes, that users can add. These DocNotes give more examples, and highlight some tricky points. The online documentation also has a quite powerful search engine and contains also all the documentation for all versions of Qt.
+</p><p>But it requires an internet connection. Without the internet connection, the doc is still available. If the QtSDK was installed correctly, the documentation that matches the current version of Qt should have been installed, and the <i>Help</i> section of QtCreator should not be empty. You can also use <i>Qt Assistant</i>, that is a standalone doc browser.
+</p>
+<h2><span class="mw-headline" id="Important_sections_of_the_documentation">Important sections of the documentation</span></h2>
+<p>If you are running the offline documentation viewer, in either Qt Creator, or Qt Assistant, you will find in the summary that there are documentations for different components of the Qt SDK.
+</p>
+<ul>
+<li> Qt Assistant documentation
+</li>
+<li> Qt Designer documentation
+</li>
+<li> Qt Linguist documentation
+</li>
+<li> QMake documentation
+</li>
+<li> Qt reference documentation
+</li>
+</ul>
+<p>The most important component is, of course, the Qt reference documentation.
+</p><p>Qt documentation provides a nice introduction of many components, and also the documentation for all the classes in Qt. This list is listed in the page <a rel="nofollow" class="external text" href="http://doc.qt.io/qt-4.8/classes.html">All classes</a>. Another interesting page is the page that lists <a rel="nofollow" class="external text" href="http://doc.qt.io/qt-4.8/modules.html">All modules</a>. This page provides information about the different components in Qt.
+</p><p>In this tutorial, we will mostly use these modules
+</p>
+<ul>
+<li> <a rel="nofollow" class="external text" href="http://doc.qt.io/qt-4.8/qtcore.html">Qt Core</a>
+</li>
+<li> <a rel="nofollow" class="external text" href="http://doc.qt.io/qt-4.8/qtgui.html">Qt GUI</a>
+</li>
+</ul>
+<p>The search function is also quite important. If you know the class to use, and want to find the documentation, you can either type the name of this class in the search field (online), or in the filter in the index (offline). You can also search for methods and enumerations in these fields.
+</p>
+<h2><span class="mw-headline" id="Browse_the_documentation_of_a_class">Browse the documentation of a class</span></h2>
+<p>Classes documentation is always organized in the same fashion&nbsp;:
+</p>
+<ul>
+<li> Name and short description of the class
+</li>
+<li> Inheritance
+</li>
+<li> Enumerations
+</li>
+<li> Properties
+</li>
+<li> Public methods
+</li>
+<li> Public slots
+</li>
+<li> Signals
+</li>
+<li> Protected methods
+</li>
+</ul>
+<p>Let's take the <span class="plainlinks"><a rel="nofollow" class="external text" href="http://doc.qt.io/qt-5/qtextedit.html#">QTextEdit</a></span> class as an example.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 1.649 seconds
+Real time usage: 1.942 seconds
+Preprocessor visited node count: 1004/1000000
+Preprocessor generated node count: 2358/1000000
+Post‐expand include size: 4010/2097152 bytes
+Template argument size: 396/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 23/100
+-->
+
+<!-- Saved in parser cache with key heroku_app_db:pcache:idhash:1488-0!*!0!!en!2!* and timestamp 20160503054525 and revision id 20033
+ -->
+</div>								<div class="printfooter">
+				Retrieved from "<a href="http://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;oldid=20033">http://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;oldid=20033</a>"				</div>
+												<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://wiki.qt.io/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="https://wiki.qt.io/Category:HowTo" title="Category:HowTo">HowTo</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-login"><a href="https://wiki.qt.io/index.php?title=Special:QtLogin&amp;returnto=Qt+for+Beginners" title="You are encouraged to log in; however, it is not mandatory [alt-shift-o]" accesskey="o">Sign in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li id="ca-nstab-main" class="selected"><span><a href="https://wiki.qt.io/Qt_for_Beginners" title="View the content page [alt-shift-c]" accesskey="c">Page</a></span></li>
+					<li id="ca-talk" class="new"><span><a href="https://wiki.qt.io/index.php?title=Talk:Qt_for_Beginners&amp;action=edit&amp;redlink=1" title="Discussion about the content page [alt-shift-t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label" tabindex="0"><span>Variants</span><a href="https://wiki.qt.io/Qt_for_Beginners#" tabindex="-1"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="https://wiki.qt.io/Qt_for_Beginners">Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="https://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;action=edit" title="This page is protected.
+You can view its source [alt-shift-e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="https://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;action=history" title="Past revisions of this page [alt-shift-h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label" tabindex="0"><span>Actions</span><a href="https://wiki.qt.io/Qt_for_Beginners#" tabindex="-1"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="https://wiki.qt.io/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Qt Wiki [alt-shift-f]" accesskey="f" id="searchInput" tabindex="1" autocomplete="off"><input type="hidden" value="Special:Search" name="title"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton">		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel" class="collapsible-nav">
+					<div id="p-logo" role="banner"><a style="background-image: url(/skins/common/images/wiki.png);" href="https://wiki.qt.io/Main" title="Visit the main page"></a></div>
+				<div class="portal first persistent" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+	<h3 id="p-navigation-label">Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="https://wiki.qt.io/Main" title="Visit the main page [alt-shift-z]" accesskey="z">Main page</a></li>
+			<li id="n-recentchanges"><a href="https://wiki.qt.io/Special:RecentChanges" title="A list of recent changes in the wiki [alt-shift-r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="https://wiki.qt.io/Special:Random" title="Load a random page [alt-shift-x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal expanded" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+	<h3 id="p-tb-label" tabindex="2"><a href="https://wiki.qt.io/Qt_for_Beginners#" aria-haspopup="true" aria-controls="p-tb-list" role="button" aria-pressed="true" aria-expanded="true">Tools</a></h3>
+	<div class="body" style="display: block;">
+		<ul id="p-tb-list">
+			<li id="t-whatlinkshere"><a href="https://wiki.qt.io/Special:WhatLinksHere/Qt_for_Beginners" title="A list of all wiki pages that link here [alt-shift-j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="https://wiki.qt.io/Special:RecentChangesLinked/Qt_for_Beginners" title="Recent changes in pages linked from this page [alt-shift-k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="https://wiki.qt.io/Special:SpecialPages" title="A list of all special pages [alt-shift-q]" accesskey="q">Special pages</a></li>
+			<li id="t-print"><a href="https://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;printable=yes" rel="alternate" title="Printable version of this page [alt-shift-p]" accesskey="p">Printable version</a></li>
+			<li id="t-permalink"><a href="https://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;oldid=20033" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="https://wiki.qt.io/index.php?title=Qt_for_Beginners&amp;action=info">Page information</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 December 2015, at 14:33.</li>
+											<li id="footer-info-viewcount">This page has been accessed 111,256 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-terms"><a href="https://developer.qtcloudservices.com/legal/terms">Käyttöehdot</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="./Qt for Beginners - Qt Wiki_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="./Qt for Beginners - Qt Wiki_files/load(6).php"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54043535-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":99});
+}</script>
+	
+
+<div class="suggestions" style="display: none; font-size: 13px;"><div class="suggestions-results"></div><div class="suggestions-special"></div></div></body></html>

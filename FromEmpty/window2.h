@@ -5,6 +5,7 @@
 
 class QPushButton; // (I don't understand this ..... I mean, this class is already defined, and why not just do #include <QPushButton> ?
 class QLCDNumber; // same, trying manually
+class QTextEdit; // same, trying manually
 class Window2 : public QWidget
 {
     Q_OBJECT
@@ -14,6 +15,7 @@ private:
     QPushButton *baton;
     QPushButton *quitButton;
     QLCDNumber *numbLCD;
+    QTextEdit *textEditScale;
 signals:
 
 public slots:

@@ -1,7 +1,9 @@
 #include "window2.h"
+//#include "lcddisplayscale.h"
 #include <QPushButton>
 #include <QApplication>
 #include <QLCDNumber>
+#include <QTextEdit>
 
 Window2::Window2(QWidget *parent) : QWidget(parent)
 {
@@ -17,8 +19,12 @@ Window2::Window2(QWidget *parent) : QWidget(parent)
     quitButton->setGeometry(420,220,80,30);
     QObject::connect(quitButton, SIGNAL(clicked()), qApp, SLOT(quit()));
 
-    numbLCD = new QLCDNumber();
-    numbLCD->setGeometry(30,30,40,40);
-    numbLCD->display(4);
-    //statusBar->addWidget(numbLCD);
+    textEditScale = new QTextEdit(this);
+    textEditScale->setGeometry(30,40,40,25);
+
+    numbLCD = new QLCDNumber(this);
+    //numbLCD->setGeometry(100,15,20,20);
+    numbLCD->setGeometry(250,100,50,50);
+    //numbLCD->display(4);
+    //QObject::connect(textEditScale,SIGNAL(textChanged()),numbLCD,SLOT(display(5)));
 }

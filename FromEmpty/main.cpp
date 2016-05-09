@@ -17,12 +17,6 @@ int main(int argc, char **argv)
  //button.setIcon(icon);
  button.show();*/
 
-    //////////////////////////////////////
-    //comment this out and it should work:
-    //nothing, see other files
-    //////////////////////////////////////
-    //////////////////////////////////////
-
     Window2 winodw;
     winodw.show();
 

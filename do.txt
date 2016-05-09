@@ -1,8 +1,8 @@
 --------------------------------------------------------
-there's another do.txt in one of the folders, which is probably really a more general thing and should be combined with this
+there's another do.txt in one of the folders, which is probably really a more general thing and should be combined with this may ne in FromEmpty, since that's your working proj)
 --------------------------------------------------------
 
 
 
-1)  try the "this worked on Dell" stuff
+*1)  try the "this worked on Dell" stuff ... it does NOT work on ThinkPad
 2)  see if you can do this stuff in Ubuntu if this compy is screwed up

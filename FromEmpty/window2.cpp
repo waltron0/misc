@@ -1,11 +1,12 @@
 #include "window2.h"
+#include "testclass.h"
 //#include "lcddisplayscale.h"
 #include <QPushButton>
 #include <QApplication>
 #include <QLCDNumber>
 #include <QTextEdit>
 
-Window2::Window2(QWidget *parent) : QWidget(parent)
+Window2::Window2(QWidget *parent) : QWidget(parent) // DONT UNDERSATDN what this inheritance-declaration-like thing is on the constructor
 {
     //Set window size:
     setFixedSize(500,250);
@@ -27,4 +28,7 @@ Window2::Window2(QWidget *parent) : QWidget(parent)
     numbLCD->setGeometry(250,100,50,50);
     //numbLCD->display(4);
     //QObject::connect(textEditScale,SIGNAL(textChanged()),numbLCD,SLOT(display(5)));
+
+    tezt=new TestClass(this);
+    QObject::connect(baton,SIGNAL(clicked()),tezt,SLOT(testSim()));
 }

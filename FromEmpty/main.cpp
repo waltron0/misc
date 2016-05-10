@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     QApplication app (argc, argv);
 
     //TestClass *wer=new TestClass;
-    //TestClass wer; why the FUCK can't I declare one of these
+    //well, this worked on ThinkUbun, and not on Dell Windows7 (also works when declared within windodw)
 
     Window2 winodw;
     winodw.show();

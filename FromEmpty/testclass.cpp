@@ -25,10 +25,19 @@ void TestClass::testSim() {
     //if(summerSloth) year.summerSlothAllowed=true;
     //else year.summerSlothAllowed=false;
 
+    /////////// new untested ///////////
+    int numpts = 5000;
     int lineStock, lineStock_init;
-    float pdf_projInit, rando;
+    float pdf_projInit, rando[numpts]; // <-- it may not like numpts in array thing
 
-    //simulate a year's worth of projects:
+    //just do something randomy instead of summersloth:
+
+    //make semi-gaussian distribution around 0 (around 0.5, then subtract 0.5):
+    for(int i=0; i<numpts; i++) {
+        rando[i] = (1./4.)*(rand()%1+rand()%1+rand()%1+rand()%1) - 0.5; // <-- actually, can you use modulus to fill bins, and have the array be num bin entries?
+    }
+    //then, have it plot in a canvas!
+    /////////// end untested ///////////
     /*for (int businessDay = 0; businessDay<250; businessDay++) {
         //determine number of projects initiated on this day according to
         //this probability distribution function which sort of peaks around the summer:

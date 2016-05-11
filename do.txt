@@ -1,5 +1,3 @@
 --------------------------------------------------------
 there's another do.txt in one of the folders, which is probably really a more general thing and should be combined with this may ne in FromEmpty, since that's your working proj)
 --------------------------------------------------------
-
-- I think now you should prolly try to make something do a simulation with input parameters from the gui

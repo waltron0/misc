@@ -26,7 +26,7 @@ void TestClass::testSim() {
     //else year.summerSlothAllowed=false;
 
     /////////// new untested ///////////
-    int numpts = 5000;
+    const int numpts = 5000;
     int lineStock, lineStock_init;
     float pdf_projInit, rando[numpts]; // <-- it may not like numpts in array thing
 
